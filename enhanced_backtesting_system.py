@@ -12,6 +12,7 @@ import warnings
 import pickle
 import os
 from sklearn.ensemble import RandomForestClassifier
+from logging_system import BacktestLogger, start_backtest_logging, stop_backtest_logging, log_backtest_section, log_backtest_metrics, log_backtest_trade
 warnings.filterwarnings('ignore')
 
 class EnhancedBacktestingSystem:
@@ -24,38 +25,59 @@ class EnhancedBacktestingSystem:
         self.models = {}
         self.backtest_results = {}
         self.portfolio_performance = {}
+        self.logger = None
         
     def run_enhanced_backtesting(self):
-        """Run comprehensive backtesting system"""
+        """Run comprehensive backtesting system with logging"""
+        # Initialize logging
+        self.logger = BacktestLogger("backtest_logs")
+        self.logger.start_logging()
+        
         print("🔄 ENHANCED BACKTESTING SYSTEM")
         print("="*80)
         print("📊 Multi-Timeframe Pairs Trading Backtesting")
         print("🎯 Using trained models from enhanced data trainer")
+        print("📝 All output will be saved to log file")
         print("="*80)
         
-        # Step 1: Load trained models
-        self.step1_load_trained_models()
-        
-        # Step 2: Load and prepare test data
-        self.step2_load_test_data()
-        
-        # Step 3: Run individual pair backtests
-        self.step3_individual_pair_backtests()
-        
-        # Step 4: Portfolio-level backtesting
-        self.step4_portfolio_backtesting()
-        
-        # Step 5: Performance analysis
-        self.step5_performance_analysis()
-        
-        # Step 6: Risk analysis
-        self.step6_risk_analysis()
-        
-        # Step 7: Generate comprehensive reports
-        self.step7_generate_reports()
-        
-        print("\n🎉 ENHANCED BACKTESTING COMPLETED!")
-        print("="*80)
+        try:
+            # Step 1: Load trained models
+            log_backtest_section("STEP 1: LOAD TRAINED MODELS")
+            self.step1_load_trained_models()
+            
+            # Step 2: Load and prepare test data
+            log_backtest_section("STEP 2: LOAD TEST DATA")
+            self.step2_load_test_data()
+            
+            # Step 3: Run individual pair backtests
+            log_backtest_section("STEP 3: INDIVIDUAL PAIR BACKTESTS")
+            self.step3_individual_pair_backtests()
+            
+            # Step 4: Portfolio-level backtesting
+            log_backtest_section("STEP 4: PORTFOLIO BACKTESTING")
+            self.step4_portfolio_backtesting()
+            
+            # Step 5: Performance analysis
+            log_backtest_section("STEP 5: PERFORMANCE ANALYSIS")
+            self.step5_performance_analysis()
+            
+            # Step 6: Risk analysis
+            log_backtest_section("STEP 6: RISK ANALYSIS")
+            self.step6_risk_analysis()
+            
+            # Step 7: Generate comprehensive reports
+            log_backtest_section("STEP 7: GENERATE REPORTS & VISUALIZATIONS")
+            self.step7_generate_reports()
+            
+            print("\n🎉 ENHANCED BACKTESTING COMPLETED!")
+            print("="*80)
+            
+        except Exception as e:
+            self.logger.log_error(f"Backtesting failed: {str(e)}")
+            raise
+        finally:
+            # Always stop logging
+            self.logger.stop_logging()
         
     def step1_load_trained_models(self):
         """Load trained models from enhanced data trainer"""
@@ -228,7 +250,7 @@ class EnhancedBacktestingSystem:
         print(f"📅 Date range: {self.test_data.index.min()} to {self.test_data.index.max()}")
     
     def step3_individual_pair_backtests(self):
-        """Run backtests for individual pairs"""
+        """Run backtests for individual pairs with detailed logging"""
         print("\n🔄 STEP 3: INDIVIDUAL PAIR BACKTESTS")
         print("-" * 50)
         
@@ -240,13 +262,37 @@ class EnhancedBacktestingSystem:
                 result = self.backtest_single_pair(pair, model_data)
                 self.backtest_results[pair] = result
                 
+                # Log detailed metrics
+                metrics = {
+                    "Total Return (%)": result['total_return'],
+                    "Sharpe Ratio": result['sharpe_ratio'],
+                    "Win Rate (%)": result['win_rate'],
+                    "Max Drawdown (%)": result['max_drawdown'],
+                    "Total Trades": result['total_trades']
+                }
+                log_backtest_metrics(metrics, f"{stock1}-{stock2} RESULTS")
+                
+                # Log individual trades
+                if result['trades']:
+                    print(f"  📊 Trade Details:")
+                    for j, trade in enumerate(result['trades'][:3], 1):  # Log first 3 trades
+                        trade_info = {
+                            'pair': f"{stock1}-{stock2}",
+                            'action': trade['action'],
+                            'entry_date': trade['entry_date'],
+                            'exit_date': trade['exit_date'],
+                            'pnl': trade['pnl'],
+                            'exit_reason': trade['exit_reason']
+                        }
+                        log_backtest_trade(trade_info)
+                
                 print(f"  ✅ Total Return: {result['total_return']:+.2f}%")
                 print(f"  📊 Sharpe Ratio: {result['sharpe_ratio']:+.3f}")
                 print(f"  🎯 Win Rate: {result['win_rate']:.1f}%")
                 print(f"  📉 Max Drawdown: {result['max_drawdown']:+.2f}%")
                 
             except Exception as e:
-                print(f"  ❌ Backtest failed: {e}")
+                self.logger.log_error(f"Backtest failed for {stock1}-{stock2}: {str(e)}")
                 continue
         
         print(f"\n✅ Completed backtests for {len(self.backtest_results)} pairs")
@@ -461,7 +507,7 @@ class EnhancedBacktestingSystem:
         return max_dd
     
     def step4_portfolio_backtesting(self):
-        """Run portfolio-level backtesting"""
+        """Run portfolio-level backtesting with logging"""
         print("\n💼 STEP 4: PORTFOLIO BACKTESTING")
         print("-" * 50)
         
@@ -479,6 +525,15 @@ class EnhancedBacktestingSystem:
         
         print(f"📊 Creating portfolio with {len(self.backtest_results)} pairs")
         print(f"💰 Weight per pair: {weight_per_pair:.2%}")
+        
+        # Log portfolio configuration
+        portfolio_config = {
+            "Number of Pairs": len(self.backtest_results),
+            "Weight per Pair": f"{weight_per_pair:.2%}",
+            "Initial Capital": initial_cash,
+            "Portfolio Type": "Equal Weight"
+        }
+        log_backtest_metrics(portfolio_config, "PORTFOLIO CONFIGURATION")
         
         # Find the longest equity curve
         max_length = max(len(result['equity_curve']) for result in self.backtest_results.values())
@@ -505,6 +560,16 @@ class EnhancedBacktestingSystem:
         self.portfolio_performance = self.calculate_backtest_metrics(
             portfolio_equity, portfolio_trades, initial_cash
         )
+        
+        # Log portfolio performance
+        portfolio_metrics = {
+            "Portfolio Return (%)": self.portfolio_performance['total_return'],
+            "Portfolio Sharpe": self.portfolio_performance['sharpe_ratio'],
+            "Portfolio Win Rate (%)": self.portfolio_performance['win_rate'],
+            "Portfolio Max DD (%)": self.portfolio_performance['max_drawdown'],
+            "Total Portfolio Trades": self.portfolio_performance['total_trades']
+        }
+        log_backtest_metrics(portfolio_metrics, "PORTFOLIO PERFORMANCE")
         
         print(f"✅ Portfolio backtesting completed")
         print(f"📈 Portfolio Total Return: {self.portfolio_performance['total_return']:+.2f}%")
