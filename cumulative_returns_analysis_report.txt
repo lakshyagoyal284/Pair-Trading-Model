@@ -1,0 +1,137 @@
+
+CUMULATIVE RETURNS ANALYSIS REPORT
+============================================================
+
+Generated: 2026-03-05 21:27:56
+Total Pairs Analyzed: 10
+Portfolio Analysis: Included
+
+============================================================
+
+INDIVIDUAL PAIR CUMULATIVE RETURNS ANALYSIS
+------------------------------------------------------------
+
+
+ABSLAMC-APCL:
+  Final Cumulative Return: +9.22%
+  Maximum Cumulative Return: +9.22%
+  Minimum Cumulative Return: -6.23%
+  Cumulative Volatility: 4.02%
+  Total Trades: 5
+  Win Rate: 80.0%
+  Sharpe Ratio: +1.116
+
+AAREYDRUGS-AJRINFRA:
+  Final Cumulative Return: +16.48%
+  Maximum Cumulative Return: +19.18%
+  Minimum Cumulative Return: -1.87%
+  Cumulative Volatility: 7.64%
+  Total Trades: 8
+  Win Rate: 50.0%
+  Sharpe Ratio: +1.581
+
+AARVEEDEN-ALPSINDUS:
+  Final Cumulative Return: +58.64%
+  Maximum Cumulative Return: +71.20%
+  Minimum Cumulative Return: +0.00%
+  Cumulative Volatility: 25.44%
+  Total Trades: 11
+  Win Rate: 63.6%
+  Sharpe Ratio: +1.768
+
+AARVI-ADANITRANS:
+  Final Cumulative Return: +36.09%
+  Maximum Cumulative Return: +41.23%
+  Minimum Cumulative Return: +0.00%
+  Cumulative Volatility: 13.66%
+  Total Trades: 8
+  Win Rate: 75.0%
+  Sharpe Ratio: +1.516
+
+AAVAS-AMRUTANJAN:
+  Final Cumulative Return: +32.38%
+  Maximum Cumulative Return: +36.67%
+  Minimum Cumulative Return: +0.00%
+  Cumulative Volatility: 15.29%
+  Total Trades: 3
+  Win Rate: 66.7%
+  Sharpe Ratio: +1.246
+
+AFFLE-AMRUTANJAN:
+  Final Cumulative Return: -224.07%
+  Maximum Cumulative Return: +6.60%
+  Minimum Cumulative Return: -228.69%
+  Cumulative Volatility: 97.84%
+  Total Trades: 11
+  Win Rate: 18.2%
+  Sharpe Ratio: -1.559
+
+AGSTRA-AJRINFRA:
+  Final Cumulative Return: +130.28%
+  Maximum Cumulative Return: +132.87%
+  Minimum Cumulative Return: -1.72%
+  Cumulative Volatility: 52.14%
+  Total Trades: 8
+  Win Rate: 62.5%
+  Sharpe Ratio: +1.929
+
+AGSTRA-ANURAS:
+  Final Cumulative Return: +11.07%
+  Maximum Cumulative Return: +14.15%
+  Minimum Cumulative Return: +0.00%
+  Cumulative Volatility: 5.63%
+  Total Trades: 7
+  Win Rate: 42.9%
+  Sharpe Ratio: +1.480
+
+ADANITRANS-AMRUTANJAN:
+  Final Cumulative Return: +51.75%
+  Maximum Cumulative Return: +77.95%
+  Minimum Cumulative Return: +0.00%
+  Cumulative Volatility: 29.34%
+  Total Trades: 13
+  Win Rate: 30.8%
+  Sharpe Ratio: +1.048
+
+AARVEEDEN-AFFLE:
+  Final Cumulative Return: +2.23%
+  Maximum Cumulative Return: +6.66%
+  Minimum Cumulative Return: -6.00%
+  Cumulative Volatility: 3.51%
+  Total Trades: 9
+  Win Rate: 55.6%
+  Sharpe Ratio: +0.232
+
+============================================================
+
+PORTFOLIO CUMULATIVE RETURNS ANALYSIS
+------------------------------------------------------------
+
+Final Cumulative Return: +1712.91%
+Maximum Cumulative Return: +1712.91%
+Minimum Cumulative Return: +0.00%
+Cumulative Volatility: 556.00%
+Total Trades: 83
+Win Rate: 50.6%
+Sharpe Ratio: +1.518
+Annualized Return: +45.56%
+
+============================================================
+
+SUMMARY STATISTICS
+------------------------------------------------------------
+
+Individual Pairs:
+  Average Cumulative Return: +12.41%
+  Standard Deviation: 86.37%
+  Best Performer: +130.28%
+  Worst Performer: -224.07%
+  Average Volatility: 25.45%
+
+Portfolio Benefits:
+  Portfolio vs Average: +1700.51%
+  Risk Reduction: -530.55%
+
+============================================================
+
+END OF REPORT

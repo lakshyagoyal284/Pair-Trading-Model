@@ -1,0 +1,1008 @@
+
+================================================================================
+PAIRS TRADING BACKTESTING LOG
+Session Started: 2026-03-07 22:20:56
+Log File: backtest_logs_fixed_v2\backtest_log_20260307_222056.txt
+================================================================================
+
+📝 Logging started: All output will be saved to backtest_logs_fixed_v2\backtest_log_20260307_222056.txt
+🔄 ENHANCED BACKTESTING - ALL CRITICAL BUGS FIXED (V2)
+================================================================================
+📊 Multi-Timeframe Pairs Trading Backtesting
+🔧 Mathematically Correct Calculations
+📝 All output will be saved to log file
+================================================================================
+
+------------------------------------------------------------
+STEP 1: LOAD TRAINED MODELS
+------------------------------------------------------------
+
+
+🤖 STEP 1: LOAD TRAINED MODELS
+--------------------------------------------------
+📊 Loading trained models...
+🚀 ENHANCED DATA TRAINER - MULTI-TIMEFRAME ANALYSIS
+================================================================================
+📊 Data Sources: 3min, 5min, 10min, 15min
+🎯 Objective: Train comprehensive pairs trading model
+================================================================================
+
+📂 STEP 1: EXTRACT AND LOAD DATA SOURCES
+------------------------------------------------------------
+
+📊 Processing 3minute data...
+  ✅ Loaded 100 stocks from 3minute
+  📅 Date range: 2015-02-02 00:00:00+05:30 to 2022-10-10 00:00:00+05:30
+
+📊 Processing 5minute data...
+  ✅ Loaded 100 stocks from 5minute
+  📅 Date range: 2015-02-02 00:00:00+05:30 to 2022-10-12 00:00:00+05:30
+
+📊 Processing 10minute data...
+  ✅ Loaded 100 stocks from 10minute
+  📅 Date range: 2015-02-02 00:00:00+05:30 to 2022-10-13 00:00:00+05:30
+
+📊 Processing 15minute data...
+  ✅ Loaded 100 stocks from 15minute
+  📅 Date range: 2015-02-02 00:00:00+05:30 to 2022-10-11 00:00:00+05:30
+
+✅ Successfully loaded 4 data sources
+
+🔧 STEP 2: DATA PREPROCESSING AND ALIGNMENT
+------------------------------------------------------------
+📊 Found 28 common stocks across all timeframes
+✅ Created combined dataset for 28 stocks
+
+🔍 STEP 3: MULTI-TIMEFRAME PAIR SELECTION
+------------------------------------------------------------
+📊 Analyzing 28 stocks for pair selection
+🎯 Selected 10 top pairs:
+  1. ABSLAMC - APCL
+     Avg Correlation: 0.9463
+     Data Points: 222
+  2. AAREYDRUGS - AJRINFRA
+     Avg Correlation: 0.9311
+     Data Points: 259
+  3. AARVEEDEN - ALPSINDUS
+     Avg Correlation: 0.9219
+     Data Points: 1388
+  4. AARVI - ADANITRANS
+     Avg Correlation: 0.9069
+     Data Points: 508
+  5. AAVAS - AMRUTANJAN
+     Avg Correlation: 0.8930
+     Data Points: 874
+  6. AFFLE - AMRUTANJAN
+     Avg Correlation: 0.8919
+     Data Points: 691
+  7. AGSTRA - AJRINFRA
+     Avg Correlation: 0.8904
+     Data Points: 152
+  8. AGSTRA - ANURAS
+     Avg Correlation: 0.8759
+     Data Points: 152
+  9. ADANITRANS - AMRUTANJAN
+     Avg Correlation: 0.8705
+     Data Points: 1559
+  10. AARVEEDEN - AFFLE
+     Avg Correlation: 0.8698
+     Data Points: 691
+
+🤖 STEP 4: ENHANCED MODEL TRAINING
+------------------------------------------------------------
+
+📈 Training model for ABSLAMC - APCL...
+  ✅ Model trained successfully
+     Train Accuracy: 1.000
+     Test Accuracy: 0.942
+     Hedge Ratios: {'3minute': 1.2498131918309194, '5minute': 1.2498131918309194, '10minute': 1.2498131918309194, '15minute': 1.2498131918309194}
+
+📈 Training model for AAREYDRUGS - AJRINFRA...
+  ✅ Model trained successfully
+     Train Accuracy: 1.000
+     Test Accuracy: 0.952
+     Hedge Ratios: {'3minute': 11.969962821047831, '5minute': 11.969962821047831, '10minute': 11.969962821047831, '15minute': 11.969962821047831}
+
+📈 Training model for AARVEEDEN - ALPSINDUS...
+  ✅ Model trained successfully
+     Train Accuracy: 0.987
+     Test Accuracy: 0.893
+     Hedge Ratios: {'3minute': 9.52000105292382, '5minute': 9.52000105292382, '10minute': 9.52000105292382, '15minute': 9.52000105292382}
+
+📈 Training model for AARVI - ADANITRANS...
+  ✅ Model trained successfully
+     Train Accuracy: 0.997
+     Test Accuracy: 0.913
+     Hedge Ratios: {'3minute': 0.026140631519451615, '5minute': 0.026140631519451615, '10minute': 0.026140631519451615, '15minute': 0.026140631519451615}
+
+📈 Training model for AAVAS - AMRUTANJAN...
+  ✅ Model trained successfully
+     Train Accuracy: 1.000
+     Test Accuracy: 0.911
+     Hedge Ratios: {'3minute': 2.530884755739722, '5minute': 2.530884755739722, '10minute': 2.530884755739722, '15minute': 2.530884755739722}
+
+📈 Training model for AFFLE - AMRUTANJAN...
+  ✅ Model trained successfully
+     Train Accuracy: 1.000
+     Test Accuracy: 0.902
+     Hedge Ratios: {'3minute': 1.728663794033924, '5minute': 1.728663794033924, '10minute': 1.728663794033924, '15minute': 1.728663794033924}
+
+📈 Training model for AGSTRA - AJRINFRA...
+  ✅ Model trained successfully
+     Train Accuracy: 1.000
+     Test Accuracy: 0.903
+     Hedge Ratios: {'3minute': 52.98645051396182, '5minute': 52.98645051396182, '10minute': 52.98645051396182, '15minute': 52.98645051396182}
+
+📈 Training model for AGSTRA - ANURAS...
+  ✅ Model trained successfully
+     Train Accuracy: 1.000
+     Test Accuracy: 0.935
+     Hedge Ratios: {'3minute': 0.19292375257324082, '5minute': 0.19292375257324082, '10minute': 0.19292375257324082, '15minute': 0.19292375257324082}
+
+📈 Training model for ADANITRANS - AMRUTANJAN...
+  ✅ Model trained successfully
+     Train Accuracy: 0.998
+     Test Accuracy: 0.894
+     Hedge Ratios: {'3minute': 3.55035807643254, '5minute': 3.55035807643254, '10minute': 3.55035807643254, '15minute': 3.55035807643254}
+
+📈 Training model for AARVEEDEN - AFFLE...
+  ✅ Model trained successfully
+     Train Accuracy: 1.000
+     Test Accuracy: 0.896
+     Hedge Ratios: {'3minute': 0.01434883648187115, '5minute': 0.01434883648187115, '10minute': 0.01434883648187115, '15minute': 0.01434883648187115}
+
+✅ Successfully trained 10 models
+
+🔬 STEP 5: CROSS-TIMEFRAME VALIDATION
+------------------------------------------------------------
+
+📊 Validating ABSLAMC - APCL...
+  ❌ Validation error for ('ABSLAMC', 'APCL'): The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- momentum
+- trend
+- volatility
+- z_score
+Feature names seen at fit time, yet now missing:
+- 10minute_momentum
+- 10minute_trend
+- 10minute_volatility
+- 10minute_z_score
+- 15minute_momentum
+- ...
+
+
+📊 Validating AAREYDRUGS - AJRINFRA...
+  ❌ Validation error for ('AAREYDRUGS', 'AJRINFRA'): The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- momentum
+- trend
+- volatility
+- z_score
+Feature names seen at fit time, yet now missing:
+- 10minute_momentum
+- 10minute_trend
+- 10minute_volatility
+- 10minute_z_score
+- 15minute_momentum
+- ...
+
+
+📊 Validating AARVEEDEN - ALPSINDUS...
+  ❌ Validation error for ('AARVEEDEN', 'ALPSINDUS'): The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- momentum
+- trend
+- volatility
+- z_score
+Feature names seen at fit time, yet now missing:
+- 10minute_momentum
+- 10minute_trend
+- 10minute_volatility
+- 10minute_z_score
+- 15minute_momentum
+- ...
+
+
+📊 Validating AARVI - ADANITRANS...
+  ❌ Validation error for ('AARVI', 'ADANITRANS'): The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- momentum
+- trend
+- volatility
+- z_score
+Feature names seen at fit time, yet now missing:
+- 10minute_momentum
+- 10minute_trend
+- 10minute_volatility
+- 10minute_z_score
+- 15minute_momentum
+- ...
+
+
+📊 Validating AAVAS - AMRUTANJAN...
+  ❌ Validation error for ('AAVAS', 'AMRUTANJAN'): The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- momentum
+- trend
+- volatility
+- z_score
+Feature names seen at fit time, yet now missing:
+- 10minute_momentum
+- 10minute_trend
+- 10minute_volatility
+- 10minute_z_score
+- 15minute_momentum
+- ...
+
+
+📊 Validating AFFLE - AMRUTANJAN...
+  ❌ Validation error for ('AFFLE', 'AMRUTANJAN'): The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- momentum
+- trend
+- volatility
+- z_score
+Feature names seen at fit time, yet now missing:
+- 10minute_momentum
+- 10minute_trend
+- 10minute_volatility
+- 10minute_z_score
+- 15minute_momentum
+- ...
+
+
+📊 Validating AGSTRA - AJRINFRA...
+  ❌ Validation error for ('AGSTRA', 'AJRINFRA'): The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- momentum
+- trend
+- volatility
+- z_score
+Feature names seen at fit time, yet now missing:
+- 10minute_momentum
+- 10minute_trend
+- 10minute_volatility
+- 10minute_z_score
+- 15minute_momentum
+- ...
+
+
+📊 Validating AGSTRA - ANURAS...
+  ❌ Validation error for ('AGSTRA', 'ANURAS'): The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- momentum
+- trend
+- volatility
+- z_score
+Feature names seen at fit time, yet now missing:
+- 10minute_momentum
+- 10minute_trend
+- 10minute_volatility
+- 10minute_z_score
+- 15minute_momentum
+- ...
+
+
+📊 Validating ADANITRANS - AMRUTANJAN...
+  ❌ Validation error for ('ADANITRANS', 'AMRUTANJAN'): The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- momentum
+- trend
+- volatility
+- z_score
+Feature names seen at fit time, yet now missing:
+- 10minute_momentum
+- 10minute_trend
+- 10minute_volatility
+- 10minute_z_score
+- 15minute_momentum
+- ...
+
+
+📊 Validating AARVEEDEN - AFFLE...
+  ❌ Validation error for ('AARVEEDEN', 'AFFLE'): The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- momentum
+- trend
+- volatility
+- z_score
+Feature names seen at fit time, yet now missing:
+- 10minute_momentum
+- 10minute_trend
+- 10minute_volatility
+- 10minute_z_score
+- 15minute_momentum
+- ...
+
+
+✅ Cross-timeframe validation completed for 0 models
+
+📈 STEP 6: PERFORMANCE ANALYSIS
+------------------------------------------------------------
+📊 MODEL PERFORMANCE SUMMARY
+----------------------------------------
+Total Models Trained: 10
+Average Train Accuracy: 0.998
+Average Test Accuracy: 0.914
+Best Test Accuracy: 0.952
+Worst Test Accuracy: 0.893
+
+🏆 TOP 5 PERFORMING MODELS
+----------------------------------------
+1. AAREYDRUGS - AJRINFRA
+   Test Accuracy: 0.952
+   Train Accuracy: 1.000
+   Data Points: 210
+2. ABSLAMC - APCL
+   Test Accuracy: 0.942
+   Train Accuracy: 1.000
+   Data Points: 173
+3. AGSTRA - ANURAS
+   Test Accuracy: 0.935
+   Train Accuracy: 1.000
+   Data Points: 103
+4. AARVI - ADANITRANS
+   Test Accuracy: 0.913
+   Train Accuracy: 0.997
+   Data Points: 459
+5. AAVAS - AMRUTANJAN
+   Test Accuracy: 0.911
+   Train Accuracy: 1.000
+   Data Points: 825
+
+📊 STEP 7: GENERATING REPORTS & VISUALIZATIONS
+------------------------------------------------------------
+📊 Enhanced training report exported to: enhanced_multi_timeframe_training_report.csv
+📊 Generating enhanced visualizations...
+✅ Enhanced visualizations generated and saved!
+✅ Reports and visualizations generated!
+
+🎉 ENHANCED TRAINING COMPLETED!
+================================================================================
+✅ Loaded 10 trained models
+
+📈 MODEL SUMMARY:
+  1. ABSLAMC - APCL: 0.942 accuracy
+      Features: 16 features
+      Sample features: ['3minute_z_score', '3minute_momentum', '3minute_volatility']...
+  2. AAREYDRUGS - AJRINFRA: 0.952 accuracy
+      Features: 16 features
+      Sample features: ['3minute_z_score', '3minute_momentum', '3minute_volatility']...
+  3. AARVEEDEN - ALPSINDUS: 0.893 accuracy
+      Features: 16 features
+      Sample features: ['3minute_z_score', '3minute_momentum', '3minute_volatility']...
+  4. AARVI - ADANITRANS: 0.913 accuracy
+      Features: 16 features
+      Sample features: ['3minute_z_score', '3minute_momentum', '3minute_volatility']...
+  5. AAVAS - AMRUTANJAN: 0.911 accuracy
+      Features: 16 features
+      Sample features: ['3minute_z_score', '3minute_momentum', '3minute_volatility']...
+  6. AFFLE - AMRUTANJAN: 0.902 accuracy
+      Features: 16 features
+      Sample features: ['3minute_z_score', '3minute_momentum', '3minute_volatility']...
+  7. AGSTRA - AJRINFRA: 0.903 accuracy
+      Features: 16 features
+      Sample features: ['3minute_z_score', '3minute_momentum', '3minute_volatility']...
+  8. AGSTRA - ANURAS: 0.935 accuracy
+      Features: 16 features
+      Sample features: ['3minute_z_score', '3minute_momentum', '3minute_volatility']...
+  9. ADANITRANS - AMRUTANJAN: 0.894 accuracy
+      Features: 16 features
+      Sample features: ['3minute_z_score', '3minute_momentum', '3minute_volatility']...
+  10. AARVEEDEN - AFFLE: 0.896 accuracy
+      Features: 16 features
+      Sample features: ['3minute_z_score', '3minute_momentum', '3minute_volatility']...
+
+------------------------------------------------------------
+STEP 2: LOAD INTRADAY TEST DATA
+------------------------------------------------------------
+
+
+📂 STEP 2: LOAD INTRADAY TEST DATA
+--------------------------------------------------
+📊 Found 1171 CSV files
+  Processed 5 stocks
+  Processed 10 stocks
+✅ Loaded INTRADAY data for 13 stocks
+📅 Date range: 2021-08-06 09:15:00+05:30 to 2022-10-10 15:27:00+05:30
+📊 Total intraday bars: 35002
+⏰ Resolution: 3-minute bars (NO DAILY RESAMPLING)
+
+------------------------------------------------------------
+STEP 3: INDIVIDUAL PAIR BACKTESTS (FIXED)
+------------------------------------------------------------
+
+
+🔄 STEP 3: INDIVIDUAL PAIR BACKTESTS (FIXED)
+--------------------------------------------------
+
+📈 Backtesting ABSLAMC - APCL with fixes...
+
+📊 ABSLAMC-APCL FIXED RESULTS
+--------------------------------------------------
+  Total Return (%): -0.30
+  Cumulative Return (%): -0.30
+  Annualized Return (%): -0.20
+  Sharpe Ratio: -1.19
+  Win Rate (%): +0.00
+  Max Drawdown (%): +0.30
+  Total Trades: 3
+  Net PnL ($): -302.07
+--------------------------------------------------
+  📊 Trade Details (Fixed):
+📈 TRADE EXECUTED:
+  Pair: ABSLAMC-APCL
+  Action: SHORT_SPREAD
+  Entry: 2021-12-20 11:30:00+05:30
+  Exit: 2021-12-20 11:33:00+05:30
+  P&L: $-96.79
+  Reason: Signal neutral
+📈 TRADE EXECUTED:
+  Pair: ABSLAMC-APCL
+  Action: SHORT_SPREAD
+  Entry: 2022-09-09 11:39:00+05:30
+  Exit: 2022-09-09 11:42:00+05:30
+  P&L: $-27.39
+  Reason: Signal neutral
+📈 TRADE EXECUTED:
+  Pair: ABSLAMC-APCL
+  Action: SHORT_SPREAD
+  Entry: 2022-09-09 11:45:00+05:30
+  Exit: 2022-09-09 11:48:00+05:30
+  P&L: $-177.89
+  Reason: Signal neutral
+  ✅ Total Return: -0.30%
+  📈 Cumulative Return: -0.30%
+  📊 Annualized Return: -0.20%
+  📊 Sharpe Ratio: -1.190
+  🎯 Win Rate: 0.0%
+  📉 Max Drawdown: +0.30%
+  💰 Net PnL: $-302.07
+
+📈 Backtesting AAREYDRUGS - AJRINFRA with fixes...
+
+📊 AAREYDRUGS-AJRINFRA FIXED RESULTS
+--------------------------------------------------
+  Total Return (%): -6.37
+  Cumulative Return (%): -6.37
+  Annualized Return (%): -3.66
+  Sharpe Ratio: -2.35
+  Win Rate (%): +0.00
+  Max Drawdown (%): +6.37
+  Total Trades: 9
+  Net PnL ($): -6374.85
+--------------------------------------------------
+  📊 Trade Details (Fixed):
+📈 TRADE EXECUTED:
+  Pair: AAREYDRUGS-AJRINFRA
+  Action: LONG_SPREAD
+  Entry: 2021-08-10 10:18:00+05:30
+  Exit: 2021-08-10 10:24:00+05:30
+  P&L: $-664.17
+  Reason: Signal neutral
+📈 TRADE EXECUTED:
+  Pair: AAREYDRUGS-AJRINFRA
+  Action: LONG_SPREAD
+  Entry: 2021-12-16 12:15:00+05:30
+  Exit: 2021-12-16 12:18:00+05:30
+  P&L: $-700.38
+  Reason: Signal neutral
+📈 TRADE EXECUTED:
+  Pair: AAREYDRUGS-AJRINFRA
+  Action: LONG_SPREAD
+  Entry: 2022-01-12 10:51:00+05:30
+  Exit: 2022-01-12 10:54:00+05:30
+  P&L: $-841.63
+  Reason: Signal neutral
+  ✅ Total Return: -6.37%
+  📈 Cumulative Return: -6.37%
+  📊 Annualized Return: -3.66%
+  📊 Sharpe Ratio: -2.349
+  🎯 Win Rate: 0.0%
+  📉 Max Drawdown: +6.37%
+  💰 Net PnL: $-6,374.85
+
+📈 Backtesting AARVEEDEN - ALPSINDUS with fixes...
+
+📊 AARVEEDEN-ALPSINDUS FIXED RESULTS
+--------------------------------------------------
+  Total Return (%): -1123.00
+  Cumulative Return (%): -1123.00
+  Annualized Return (%): +nan
+  Sharpe Ratio: +0.21
+  Win Rate (%): +6.02
+  Max Drawdown (%): +1115.36
+  Total Trades: 1978
+  Net PnL ($): -1122999.30
+--------------------------------------------------
+  📊 Trade Details (Fixed):
+📈 TRADE EXECUTED:
+  Pair: AARVEEDEN-ALPSINDUS
+  Action: SHORT_SPREAD
+  Entry: 2015-10-12 09:48:00+05:30
+  Exit: 2015-10-12 09:51:00+05:30
+  P&L: $-568.08
+  Reason: Signal neutral
+📈 TRADE EXECUTED:
+  Pair: AARVEEDEN-ALPSINDUS
+  Action: SHORT_SPREAD
+  Entry: 2015-10-12 11:30:00+05:30
+  Exit: 2015-10-12 11:33:00+05:30
+  P&L: $-315.29
+  Reason: Signal neutral
+📈 TRADE EXECUTED:
+  Pair: AARVEEDEN-ALPSINDUS
+  Action: SHORT_SPREAD
+  Entry: 2015-10-13 11:18:00+05:30
+  Exit: 2015-10-13 11:39:00+05:30
+  P&L: $-33.91
+  Reason: Signal neutral
+  ✅ Total Return: -1123.00%
+  📈 Cumulative Return: -1123.00%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: +0.205
+  🎯 Win Rate: 6.0%
+  📉 Max Drawdown: +1115.36%
+  💰 Net PnL: $-1,122,999.30
+
+📈 Backtesting AARVI - ADANITRANS with fixes...
+
+📊 AARVI-ADANITRANS FIXED RESULTS
+--------------------------------------------------
+  Total Return (%): -1.37
+  Cumulative Return (%): -1.37
+  Annualized Return (%): -0.49
+  Sharpe Ratio: -0.21
+  Win Rate (%): +29.03
+  Max Drawdown (%): +6.21
+  Total Trades: 124
+  Net PnL ($): -1370.51
+--------------------------------------------------
+  📊 Trade Details (Fixed):
+📈 TRADE EXECUTED:
+  Pair: AARVI-ADANITRANS
+  Action: SHORT_SPREAD
+  Entry: 2020-08-07 15:24:00+05:30
+  Exit: 2020-08-07 15:27:00+05:30
+  P&L: $+1,605.96
+  Reason: Signal neutral
+📈 TRADE EXECUTED:
+  Pair: AARVI-ADANITRANS
+  Action: SHORT_SPREAD
+  Entry: 2020-10-22 13:00:00+05:30
+  Exit: 2020-10-22 13:03:00+05:30
+  P&L: $-49.67
+  Reason: Signal neutral
+📈 TRADE EXECUTED:
+  Pair: AARVI-ADANITRANS
+  Action: SHORT_SPREAD
+  Entry: 2020-11-10 10:12:00+05:30
+  Exit: 2020-11-10 10:33:00+05:30
+  P&L: $+1,442.96
+  Reason: Signal neutral
+  ✅ Total Return: -1.37%
+  📈 Cumulative Return: -1.37%
+  📊 Annualized Return: -0.49%
+  📊 Sharpe Ratio: -0.209
+  🎯 Win Rate: 29.0%
+  📉 Max Drawdown: +6.21%
+  💰 Net PnL: $-1,370.51
+
+📈 Backtesting AAVAS - AMRUTANJAN with fixes...
+
+📊 AAVAS-AMRUTANJAN FIXED RESULTS
+--------------------------------------------------
+  Total Return (%): -57.65
+  Cumulative Return (%): -57.65
+  Annualized Return (%): -12.90
+  Sharpe Ratio: -5.72
+  Win Rate (%): +4.33
+  Max Drawdown (%): +57.65
+  Total Trades: 300
+  Net PnL ($): -57649.53
+--------------------------------------------------
+  📊 Trade Details (Fixed):
+📈 TRADE EXECUTED:
+  Pair: AAVAS-AMRUTANJAN
+  Action: LONG_SPREAD
+  Entry: 2018-10-19 12:03:00+05:30
+  Exit: 2018-10-19 12:06:00+05:30
+  P&L: $-184.56
+  Reason: Signal neutral
+📈 TRADE EXECUTED:
+  Pair: AAVAS-AMRUTANJAN
+  Action: LONG_SPREAD
+  Entry: 2018-10-19 13:39:00+05:30
+  Exit: 2018-10-19 13:42:00+05:30
+  P&L: $-252.98
+  Reason: Signal neutral
+📈 TRADE EXECUTED:
+  Pair: AAVAS-AMRUTANJAN
+  Action: LONG_SPREAD
+  Entry: 2018-10-25 11:00:00+05:30
+  Exit: 2018-10-25 11:03:00+05:30
+  P&L: $-329.12
+  Reason: Signal neutral
+  ✅ Total Return: -57.65%
+  📈 Cumulative Return: -57.65%
+  📊 Annualized Return: -12.90%
+  📊 Sharpe Ratio: -5.722
+  🎯 Win Rate: 4.3%
+  📉 Max Drawdown: +57.65%
+  💰 Net PnL: $-57,649.53
+
+📈 Backtesting AFFLE - AMRUTANJAN with fixes...
+
+📊 AFFLE-AMRUTANJAN FIXED RESULTS
+--------------------------------------------------
+  Total Return (%): -28.39
+  Cumulative Return (%): -28.39
+  Annualized Return (%): -6.51
+  Sharpe Ratio: -4.10
+  Win Rate (%): +8.54
+  Max Drawdown (%): +28.73
+  Total Trades: 199
+  Net PnL ($): -28392.81
+--------------------------------------------------
+  📊 Trade Details (Fixed):
+📈 TRADE EXECUTED:
+  Pair: AFFLE-AMRUTANJAN
+  Action: LONG_SPREAD
+  Entry: 2020-02-12 11:21:00+05:30
+  Exit: 2020-02-12 11:30:00+05:30
+  P&L: $-25.14
+  Reason: Signal neutral
+📈 TRADE EXECUTED:
+  Pair: AFFLE-AMRUTANJAN
+  Action: SHORT_SPREAD
+  Entry: 2020-03-12 11:33:00+05:30
+  Exit: 2020-03-12 11:48:00+05:30
+  P&L: $+345.90
+  Reason: Signal neutral
+📈 TRADE EXECUTED:
+  Pair: AFFLE-AMRUTANJAN
+  Action: SHORT_SPREAD
+  Entry: 2020-03-18 11:42:00+05:30
+  Exit: 2020-03-18 11:45:00+05:30
+  P&L: $-311.04
+  Reason: Signal neutral
+  ✅ Total Return: -28.39%
+  📈 Cumulative Return: -28.39%
+  📊 Annualized Return: -6.51%
+  📊 Sharpe Ratio: -4.101
+  🎯 Win Rate: 8.5%
+  📉 Max Drawdown: +28.73%
+  💰 Net PnL: $-28,392.81
+
+📈 Backtesting AGSTRA - AJRINFRA with fixes...
+
+📊 AGSTRA-AJRINFRA FIXED RESULTS
+--------------------------------------------------
+  Total Return (%): -7.75
+  Cumulative Return (%): -7.75
+  Annualized Return (%): -7.24
+  Sharpe Ratio: -1.75
+  Win Rate (%): +0.00
+  Max Drawdown (%): +7.75
+  Total Trades: 3
+  Net PnL ($): -7751.40
+--------------------------------------------------
+  📊 Trade Details (Fixed):
+📈 TRADE EXECUTED:
+  Pair: AGSTRA-AJRINFRA
+  Action: LONG_SPREAD
+  Entry: 2022-02-01 13:48:00+05:30
+  Exit: 2022-02-01 13:57:00+05:30
+  P&L: $-2,970.55
+  Reason: Signal neutral
+📈 TRADE EXECUTED:
+  Pair: AGSTRA-AJRINFRA
+  Action: SHORT_SPREAD
+  Entry: 2022-03-29 12:33:00+05:30
+  Exit: 2022-03-29 12:36:00+05:30
+  P&L: $-2,961.62
+  Reason: Signal neutral
+📈 TRADE EXECUTED:
+  Pair: AGSTRA-AJRINFRA
+  Action: LONG_SPREAD
+  Entry: 2022-08-04 14:15:00+05:30
+  Exit: 2022-08-04 14:18:00+05:30
+  P&L: $-1,819.22
+  Reason: Signal neutral
+  ✅ Total Return: -7.75%
+  📈 Cumulative Return: -7.75%
+  📊 Annualized Return: -7.24%
+  📊 Sharpe Ratio: -1.747
+  🎯 Win Rate: 0.0%
+  📉 Max Drawdown: +7.75%
+  💰 Net PnL: $-7,751.40
+
+📈 Backtesting AGSTRA - ANURAS with fixes...
+
+📊 AGSTRA-ANURAS FIXED RESULTS
+--------------------------------------------------
+  Total Return (%): +0.00
+  Cumulative Return (%): +0.00
+  Annualized Return (%): +0.00
+  Sharpe Ratio: 0
+  Win Rate (%): 0
+  Max Drawdown (%): 0
+  Total Trades: 0
+  Net PnL ($): 0
+--------------------------------------------------
+  ✅ Total Return: +0.00%
+  📈 Cumulative Return: +0.00%
+  📊 Annualized Return: +0.00%
+  📊 Sharpe Ratio: +0.000
+  🎯 Win Rate: 0.0%
+  📉 Max Drawdown: +0.00%
+  💰 Net PnL: $+0.00
+
+📈 Backtesting ADANITRANS - AMRUTANJAN with fixes...
+
+📊 ADANITRANS-AMRUTANJAN FIXED RESULTS
+--------------------------------------------------
+  Total Return (%): -207.65
+  Cumulative Return (%): -207.65
+  Annualized Return (%): +nan
+  Sharpe Ratio: -0.42
+  Win Rate (%): +14.14
+  Max Drawdown (%): +205.67
+  Total Trades: 898
+  Net PnL ($): -207646.29
+--------------------------------------------------
+  📊 Trade Details (Fixed):
+📈 TRADE EXECUTED:
+  Pair: ADANITRANS-AMRUTANJAN
+  Action: LONG_SPREAD
+  Entry: 2015-08-07 12:51:00+05:30
+  Exit: 2015-08-07 13:03:00+05:30
+  P&L: $-3,133.33
+  Reason: Signal neutral
+📈 TRADE EXECUTED:
+  Pair: ADANITRANS-AMRUTANJAN
+  Action: SHORT_SPREAD
+  Entry: 2015-08-13 11:09:00+05:30
+  Exit: 2015-08-13 11:12:00+05:30
+  P&L: $+296.50
+  Reason: Signal neutral
+📈 TRADE EXECUTED:
+  Pair: ADANITRANS-AMRUTANJAN
+  Action: LONG_SPREAD
+  Entry: 2015-08-14 09:18:00+05:30
+  Exit: 2015-08-14 09:21:00+05:30
+  P&L: $+944.52
+  Reason: Signal neutral
+  ✅ Total Return: -207.65%
+  📈 Cumulative Return: -207.65%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: -0.423
+  🎯 Win Rate: 14.1%
+  📉 Max Drawdown: +205.67%
+  💰 Net PnL: $-207,646.29
+
+📈 Backtesting AARVEEDEN - AFFLE with fixes...
+
+📊 AARVEEDEN-AFFLE FIXED RESULTS
+--------------------------------------------------
+  Total Return (%): -30.10
+  Cumulative Return (%): -30.10
+  Annualized Return (%): -10.68
+  Sharpe Ratio: -2.20
+  Win Rate (%): +23.64
+  Max Drawdown (%): +30.51
+  Total Trades: 258
+  Net PnL ($): -30100.32
+--------------------------------------------------
+  📊 Trade Details (Fixed):
+📈 TRADE EXECUTED:
+  Pair: AARVEEDEN-AFFLE
+  Action: LONG_SPREAD
+  Entry: 2019-08-20 13:42:00+05:30
+  Exit: 2019-08-20 13:45:00+05:30
+  P&L: $-56.32
+  Reason: Signal neutral
+📈 TRADE EXECUTED:
+  Pair: AARVEEDEN-AFFLE
+  Action: LONG_SPREAD
+  Entry: 2019-08-21 11:54:00+05:30
+  Exit: 2019-08-21 11:57:00+05:30
+  P&L: $-389.99
+  Reason: Signal neutral
+📈 TRADE EXECUTED:
+  Pair: AARVEEDEN-AFFLE
+  Action: LONG_SPREAD
+  Entry: 2019-09-18 09:45:00+05:30
+  Exit: 2019-09-18 09:48:00+05:30
+  P&L: $-21.66
+  Reason: Signal neutral
+  ✅ Total Return: -30.10%
+  📈 Cumulative Return: -30.10%
+  📊 Annualized Return: -10.68%
+  📊 Sharpe Ratio: -2.200
+  🎯 Win Rate: 23.6%
+  📉 Max Drawdown: +30.51%
+  💰 Net PnL: $-30,100.32
+
+✅ Completed FIXED backtests for 10 pairs
+
+------------------------------------------------------------
+STEP 4: PORTFOLIO BACKTESTING (FIXED)
+------------------------------------------------------------
+
+
+💼 STEP 4: PORTFOLIO BACKTESTING (FIXED)
+--------------------------------------------------
+
+📊 PORTFOLIO PERFORMANCE (FIXED)
+--------------------------------------------------
+  Portfolio Return (%): -62.73
+  Portfolio Cumulative Return (%): -62.73
+  Portfolio Annualized Return (%): -8.45
+  Portfolio Sharpe: -0.34
+  Portfolio Win Rate (%): +9.89
+  Portfolio Max DD (%): +81.93
+  Total Portfolio Trades: 3772
+--------------------------------------------------
+✅ Portfolio backtesting completed with fixes
+📈 Portfolio Total Return: -62.73%
+📈 Portfolio Cumulative Return: -62.73%
+📊 Portfolio Annualized Return: -8.45%
+📊 Portfolio Sharpe Ratio: -0.336
+🎯 Portfolio Win Rate: 9.9%
+📉 Portfolio Max Drawdown: +81.93%
+
+------------------------------------------------------------
+STEP 5: CUMULATIVE RETURNS ANALYSIS (FIXED)
+------------------------------------------------------------
+
+
+📈 STEP 5: CUMULATIVE RETURNS ANALYSIS (FIXED)
+--------------------------------------------------
+📊 CUMULATIVE RETURNS SUMMARY (FIXED):
+------------------------------------------------------------
+  ABSLAMC-APCL:
+    Final Cumulative Return: -0.30%
+    Maximum Cumulative Return: +0.00%
+    Minimum Cumulative Return: -0.30%
+
+  AAREYDRUGS-AJRINFRA:
+    Final Cumulative Return: -6.37%
+    Maximum Cumulative Return: +0.00%
+    Minimum Cumulative Return: -6.37%
+
+  AARVEEDEN-ALPSINDUS:
+    Final Cumulative Return: -1123.00%
+    Maximum Cumulative Return: +0.85%
+    Minimum Cumulative Return: -1124.04%
+
+  AARVI-ADANITRANS:
+    Final Cumulative Return: -1.37%
+    Maximum Cumulative Return: +3.61%
+    Minimum Cumulative Return: -2.82%
+
+  AAVAS-AMRUTANJAN:
+    Final Cumulative Return: -57.65%
+    Maximum Cumulative Return: +0.00%
+    Minimum Cumulative Return: -57.65%
+
+  AFFLE-AMRUTANJAN:
+    Final Cumulative Return: -28.39%
+    Maximum Cumulative Return: +0.48%
+    Minimum Cumulative Return: -28.39%
+
+  AGSTRA-AJRINFRA:
+    Final Cumulative Return: -7.75%
+    Maximum Cumulative Return: +0.00%
+    Minimum Cumulative Return: -7.75%
+
+  AGSTRA-ANURAS:
+    Final Cumulative Return: +0.00%
+    Maximum Cumulative Return: +0.00%
+    Minimum Cumulative Return: +0.00%
+
+  ADANITRANS-AMRUTANJAN:
+    Final Cumulative Return: -207.65%
+    Maximum Cumulative Return: +1.87%
+    Minimum Cumulative Return: -207.65%
+
+  AARVEEDEN-AFFLE:
+    Final Cumulative Return: -30.10%
+    Maximum Cumulative Return: +0.14%
+    Minimum Cumulative Return: -30.42%
+
+💼 PORTFOLIO (FIXED):
+    Final Cumulative Return: -62.73%
+    Maximum Cumulative Return: +0.00%
+    Minimum Cumulative Return: -81.93%
+------------------------------------------------------------
+✅ All cumulative returns calculated with correct compounding
+
+------------------------------------------------------------
+STEP 6: PERFORMANCE ANALYSIS
+------------------------------------------------------------
+
+
+📈 STEP 6: PERFORMANCE ANALYSIS
+--------------------------------------------------
+📊 INDIVIDUAL PAIR PERFORMANCE (FIXED)
+----------------------------------------
+ 1. AGSTRA-ANURAS: Cumulative Return:  +0.00%, Total Return:  +0.00%, Sharpe: +0.000, Net PnL: $   +0.00
+ 2. ABSLAMC-APCL: Cumulative Return:  -0.30%, Total Return:  -0.30%, Sharpe: -1.190, Net PnL: $ -302.07
+ 3. AARVI-ADANITRANS: Cumulative Return:  -1.37%, Total Return:  -1.37%, Sharpe: -0.209, Net PnL: $-1370.51
+ 4. AAREYDRUGS-AJRINFRA: Cumulative Return:  -6.37%, Total Return:  -6.37%, Sharpe: -2.349, Net PnL: $-6374.85
+ 5. AGSTRA-AJRINFRA: Cumulative Return:  -7.75%, Total Return:  -7.75%, Sharpe: -1.747, Net PnL: $-7751.40
+ 6. AFFLE-AMRUTANJAN: Cumulative Return: -28.39%, Total Return: -28.39%, Sharpe: -4.101, Net PnL: $-28392.81
+ 7. AARVEEDEN-AFFLE: Cumulative Return: -30.10%, Total Return: -30.10%, Sharpe: -2.200, Net PnL: $-30100.32
+ 8. AAVAS-AMRUTANJAN: Cumulative Return: -57.65%, Total Return: -57.65%, Sharpe: -5.722, Net PnL: $-57649.53
+ 9. ADANITRANS-AMRUTANJAN: Cumulative Return: -207.65%, Total Return: -207.65%, Sharpe: -0.423, Net PnL: $-207646.29
+10. AARVEEDEN-ALPSINDUS: Cumulative Return: -1123.00%, Total Return: -1123.00%, Sharpe: +0.205, Net PnL: $-1122999.30
+
+💼 PORTFOLIO PERFORMANCE (FIXED)
+----------------------------------------
+Portfolio Cumulative Return:     -62.73%
+Portfolio Total Return:           -62.73%
+Portfolio Annualized Return:       -8.45%
+Portfolio Sharpe:                 -0.336
+Portfolio Win Rate:               9.9%
+Portfolio Max DD:                 +81.93%
+
+📊 AVERAGE INDIVIDUAL PERFORMANCE
+----------------------------------------
+Avg Cumulative Return:     -146.26%
+Avg Total Return:           -146.26%
+Avg Sharpe:                 -1.774
+Avg Win Rate:               8.6%
+
+🎯 PORTFOLIO BENEFITS (FIXED)
+----------------------------------------
+Cumulative Return Bonus:    +83.53%
+Total Return Bonus:         +83.53%
+Risk Reduction:             -1.438 Sharpe
+
+------------------------------------------------------------
+STEP 7: RISK ANALYSIS
+------------------------------------------------------------
+
+
+⚠️  STEP 7: RISK ANALYSIS
+--------------------------------------------------
+💼 PORTFOLIO RISK METRICS (FIXED)
+----------------------------------------
+Annual Volatility:     19.68%
+95% VaR (annual):      0.00%
+Max Drawdown:          81.93%
+Calmar Ratio:          -0.766
+Cumulative Return Vol: 330.98%
+
+📊 INDIVIDUAL PAIR RISK (FIXED)
+----------------------------------------
+Average Max Drawdown:  145.86%
+Worst Max Drawdown:    1115.36%
+Drawdown Consistency:  Low
+Avg Cumulative Return: -1.46%
+Cumulative Volatility: 330.98%
+
+🔗 CORRELATION ANALYSIS
+----------------------------------------
+Average Pair Correlation: nan
+Diversification Benefit:  Low
+
+------------------------------------------------------------
+STEP 8: GENERATE REPORTS & VISUALIZATIONS
+------------------------------------------------------------
+
+
+📊 STEP 8: GENERATE REPORTS & VISUALIZATIONS
+--------------------------------------------------
+📊 Fixed backtesting report exported to: enhanced_backtesting_fixed_v2_report.csv
+📊 Generating fixed visualizations...
+❌ ERROR: Backtesting failed: x and y must have same first dimension, but have shapes (30408,) and (30329,)
+
+
+================================================================================
+BACKTESTING SESSION COMPLETED
+Session Ended: 2026-03-07 22:27:08
+Log File: backtest_logs_fixed_v2\backtest_log_20260307_222056.txt
+================================================================================

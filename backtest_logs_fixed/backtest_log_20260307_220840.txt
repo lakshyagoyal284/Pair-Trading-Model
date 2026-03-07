@@ -1,0 +1,569 @@
+
+================================================================================
+PAIRS TRADING BACKTESTING LOG
+Session Started: 2026-03-07 22:08:40
+Log File: backtest_logs_fixed\backtest_log_20260307_220840.txt
+================================================================================
+
+📝 Logging started: All output will be saved to backtest_logs_fixed\backtest_log_20260307_220840.txt
+🔄 ENHANCED BACKTESTING - ALL CRITICAL BUGS FIXED
+================================================================================
+📊 Multi-Timeframe Pairs Trading Backtesting
+🔧 Mathematically Correct Calculations
+📝 All output will be saved to log file
+================================================================================
+
+------------------------------------------------------------
+STEP 1: LOAD TRAINED MODELS
+------------------------------------------------------------
+
+
+🤖 STEP 1: LOAD TRAINED MODELS
+--------------------------------------------------
+📊 Loading trained models...
+🚀 ENHANCED DATA TRAINER - MULTI-TIMEFRAME ANALYSIS
+================================================================================
+📊 Data Sources: 3min, 5min, 10min, 15min
+🎯 Objective: Train comprehensive pairs trading model
+================================================================================
+
+📂 STEP 1: EXTRACT AND LOAD DATA SOURCES
+------------------------------------------------------------
+
+📊 Processing 3minute data...
+  ✅ Loaded 100 stocks from 3minute
+  📅 Date range: 2015-02-02 00:00:00+05:30 to 2022-10-10 00:00:00+05:30
+
+📊 Processing 5minute data...
+  ✅ Loaded 100 stocks from 5minute
+  📅 Date range: 2015-02-02 00:00:00+05:30 to 2022-10-12 00:00:00+05:30
+
+📊 Processing 10minute data...
+  ✅ Loaded 100 stocks from 10minute
+  📅 Date range: 2015-02-02 00:00:00+05:30 to 2022-10-13 00:00:00+05:30
+
+📊 Processing 15minute data...
+  ✅ Loaded 100 stocks from 15minute
+  📅 Date range: 2015-02-02 00:00:00+05:30 to 2022-10-11 00:00:00+05:30
+
+✅ Successfully loaded 4 data sources
+
+🔧 STEP 2: DATA PREPROCESSING AND ALIGNMENT
+------------------------------------------------------------
+📊 Found 28 common stocks across all timeframes
+✅ Created combined dataset for 28 stocks
+
+🔍 STEP 3: MULTI-TIMEFRAME PAIR SELECTION
+------------------------------------------------------------
+📊 Analyzing 28 stocks for pair selection
+🎯 Selected 10 top pairs:
+  1. ABSLAMC - APCL
+     Avg Correlation: 0.9463
+     Data Points: 222
+  2. AAREYDRUGS - AJRINFRA
+     Avg Correlation: 0.9311
+     Data Points: 259
+  3. AARVEEDEN - ALPSINDUS
+     Avg Correlation: 0.9219
+     Data Points: 1388
+  4. AARVI - ADANITRANS
+     Avg Correlation: 0.9069
+     Data Points: 508
+  5. AAVAS - AMRUTANJAN
+     Avg Correlation: 0.8930
+     Data Points: 874
+  6. AFFLE - AMRUTANJAN
+     Avg Correlation: 0.8919
+     Data Points: 691
+  7. AGSTRA - AJRINFRA
+     Avg Correlation: 0.8904
+     Data Points: 152
+  8. AGSTRA - ANURAS
+     Avg Correlation: 0.8759
+     Data Points: 152
+  9. ADANITRANS - AMRUTANJAN
+     Avg Correlation: 0.8705
+     Data Points: 1559
+  10. AARVEEDEN - AFFLE
+     Avg Correlation: 0.8698
+     Data Points: 691
+
+🤖 STEP 4: ENHANCED MODEL TRAINING
+------------------------------------------------------------
+
+📈 Training model for ABSLAMC - APCL...
+  ✅ Model trained successfully
+     Train Accuracy: 1.000
+     Test Accuracy: 0.942
+     Hedge Ratios: {'3minute': 1.2498131918309194, '5minute': 1.2498131918309194, '10minute': 1.2498131918309194, '15minute': 1.2498131918309194}
+
+📈 Training model for AAREYDRUGS - AJRINFRA...
+  ✅ Model trained successfully
+     Train Accuracy: 1.000
+     Test Accuracy: 0.952
+     Hedge Ratios: {'3minute': 11.969962821047831, '5minute': 11.969962821047831, '10minute': 11.969962821047831, '15minute': 11.969962821047831}
+
+📈 Training model for AARVEEDEN - ALPSINDUS...
+  ✅ Model trained successfully
+     Train Accuracy: 0.987
+     Test Accuracy: 0.893
+     Hedge Ratios: {'3minute': 9.52000105292382, '5minute': 9.52000105292382, '10minute': 9.52000105292382, '15minute': 9.52000105292382}
+
+📈 Training model for AARVI - ADANITRANS...
+  ✅ Model trained successfully
+     Train Accuracy: 0.997
+     Test Accuracy: 0.913
+     Hedge Ratios: {'3minute': 0.026140631519451615, '5minute': 0.026140631519451615, '10minute': 0.026140631519451615, '15minute': 0.026140631519451615}
+
+📈 Training model for AAVAS - AMRUTANJAN...
+  ✅ Model trained successfully
+     Train Accuracy: 1.000
+     Test Accuracy: 0.911
+     Hedge Ratios: {'3minute': 2.530884755739722, '5minute': 2.530884755739722, '10minute': 2.530884755739722, '15minute': 2.530884755739722}
+
+📈 Training model for AFFLE - AMRUTANJAN...
+  ✅ Model trained successfully
+     Train Accuracy: 1.000
+     Test Accuracy: 0.902
+     Hedge Ratios: {'3minute': 1.728663794033924, '5minute': 1.728663794033924, '10minute': 1.728663794033924, '15minute': 1.728663794033924}
+
+📈 Training model for AGSTRA - AJRINFRA...
+  ✅ Model trained successfully
+     Train Accuracy: 1.000
+     Test Accuracy: 0.903
+     Hedge Ratios: {'3minute': 52.98645051396182, '5minute': 52.98645051396182, '10minute': 52.98645051396182, '15minute': 52.98645051396182}
+
+📈 Training model for AGSTRA - ANURAS...
+  ✅ Model trained successfully
+     Train Accuracy: 1.000
+     Test Accuracy: 0.935
+     Hedge Ratios: {'3minute': 0.19292375257324082, '5minute': 0.19292375257324082, '10minute': 0.19292375257324082, '15minute': 0.19292375257324082}
+
+📈 Training model for ADANITRANS - AMRUTANJAN...
+  ✅ Model trained successfully
+     Train Accuracy: 0.998
+     Test Accuracy: 0.894
+     Hedge Ratios: {'3minute': 3.55035807643254, '5minute': 3.55035807643254, '10minute': 3.55035807643254, '15minute': 3.55035807643254}
+
+📈 Training model for AARVEEDEN - AFFLE...
+  ✅ Model trained successfully
+     Train Accuracy: 1.000
+     Test Accuracy: 0.896
+     Hedge Ratios: {'3minute': 0.01434883648187115, '5minute': 0.01434883648187115, '10minute': 0.01434883648187115, '15minute': 0.01434883648187115}
+
+✅ Successfully trained 10 models
+
+🔬 STEP 5: CROSS-TIMEFRAME VALIDATION
+------------------------------------------------------------
+
+📊 Validating ABSLAMC - APCL...
+  ❌ Validation error for ('ABSLAMC', 'APCL'): The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- momentum
+- trend
+- volatility
+- z_score
+Feature names seen at fit time, yet now missing:
+- 10minute_momentum
+- 10minute_trend
+- 10minute_volatility
+- 10minute_z_score
+- 15minute_momentum
+- ...
+
+
+📊 Validating AAREYDRUGS - AJRINFRA...
+  ❌ Validation error for ('AAREYDRUGS', 'AJRINFRA'): The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- momentum
+- trend
+- volatility
+- z_score
+Feature names seen at fit time, yet now missing:
+- 10minute_momentum
+- 10minute_trend
+- 10minute_volatility
+- 10minute_z_score
+- 15minute_momentum
+- ...
+
+
+📊 Validating AARVEEDEN - ALPSINDUS...
+  ❌ Validation error for ('AARVEEDEN', 'ALPSINDUS'): The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- momentum
+- trend
+- volatility
+- z_score
+Feature names seen at fit time, yet now missing:
+- 10minute_momentum
+- 10minute_trend
+- 10minute_volatility
+- 10minute_z_score
+- 15minute_momentum
+- ...
+
+
+📊 Validating AARVI - ADANITRANS...
+  ❌ Validation error for ('AARVI', 'ADANITRANS'): The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- momentum
+- trend
+- volatility
+- z_score
+Feature names seen at fit time, yet now missing:
+- 10minute_momentum
+- 10minute_trend
+- 10minute_volatility
+- 10minute_z_score
+- 15minute_momentum
+- ...
+
+
+📊 Validating AAVAS - AMRUTANJAN...
+  ❌ Validation error for ('AAVAS', 'AMRUTANJAN'): The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- momentum
+- trend
+- volatility
+- z_score
+Feature names seen at fit time, yet now missing:
+- 10minute_momentum
+- 10minute_trend
+- 10minute_volatility
+- 10minute_z_score
+- 15minute_momentum
+- ...
+
+
+📊 Validating AFFLE - AMRUTANJAN...
+  ❌ Validation error for ('AFFLE', 'AMRUTANJAN'): The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- momentum
+- trend
+- volatility
+- z_score
+Feature names seen at fit time, yet now missing:
+- 10minute_momentum
+- 10minute_trend
+- 10minute_volatility
+- 10minute_z_score
+- 15minute_momentum
+- ...
+
+
+📊 Validating AGSTRA - AJRINFRA...
+  ❌ Validation error for ('AGSTRA', 'AJRINFRA'): The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- momentum
+- trend
+- volatility
+- z_score
+Feature names seen at fit time, yet now missing:
+- 10minute_momentum
+- 10minute_trend
+- 10minute_volatility
+- 10minute_z_score
+- 15minute_momentum
+- ...
+
+
+📊 Validating AGSTRA - ANURAS...
+  ❌ Validation error for ('AGSTRA', 'ANURAS'): The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- momentum
+- trend
+- volatility
+- z_score
+Feature names seen at fit time, yet now missing:
+- 10minute_momentum
+- 10minute_trend
+- 10minute_volatility
+- 10minute_z_score
+- 15minute_momentum
+- ...
+
+
+📊 Validating ADANITRANS - AMRUTANJAN...
+  ❌ Validation error for ('ADANITRANS', 'AMRUTANJAN'): The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- momentum
+- trend
+- volatility
+- z_score
+Feature names seen at fit time, yet now missing:
+- 10minute_momentum
+- 10minute_trend
+- 10minute_volatility
+- 10minute_z_score
+- 15minute_momentum
+- ...
+
+
+📊 Validating AARVEEDEN - AFFLE...
+  ❌ Validation error for ('AARVEEDEN', 'AFFLE'): The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- momentum
+- trend
+- volatility
+- z_score
+Feature names seen at fit time, yet now missing:
+- 10minute_momentum
+- 10minute_trend
+- 10minute_volatility
+- 10minute_z_score
+- 15minute_momentum
+- ...
+
+
+✅ Cross-timeframe validation completed for 0 models
+
+📈 STEP 6: PERFORMANCE ANALYSIS
+------------------------------------------------------------
+📊 MODEL PERFORMANCE SUMMARY
+----------------------------------------
+Total Models Trained: 10
+Average Train Accuracy: 0.998
+Average Test Accuracy: 0.914
+Best Test Accuracy: 0.952
+Worst Test Accuracy: 0.893
+
+🏆 TOP 5 PERFORMING MODELS
+----------------------------------------
+1. AAREYDRUGS - AJRINFRA
+   Test Accuracy: 0.952
+   Train Accuracy: 1.000
+   Data Points: 210
+2. ABSLAMC - APCL
+   Test Accuracy: 0.942
+   Train Accuracy: 1.000
+   Data Points: 173
+3. AGSTRA - ANURAS
+   Test Accuracy: 0.935
+   Train Accuracy: 1.000
+   Data Points: 103
+4. AARVI - ADANITRANS
+   Test Accuracy: 0.913
+   Train Accuracy: 0.997
+   Data Points: 459
+5. AAVAS - AMRUTANJAN
+   Test Accuracy: 0.911
+   Train Accuracy: 1.000
+   Data Points: 825
+
+📊 STEP 7: GENERATING REPORTS & VISUALIZATIONS
+------------------------------------------------------------
+📊 Enhanced training report exported to: enhanced_multi_timeframe_training_report.csv
+📊 Generating enhanced visualizations...
+✅ Enhanced visualizations generated and saved!
+✅ Reports and visualizations generated!
+
+🎉 ENHANCED TRAINING COMPLETED!
+================================================================================
+✅ Loaded 10 trained models
+
+📈 MODEL SUMMARY:
+  1. ABSLAMC - APCL: 0.942 accuracy
+      Features: 16 features
+      Sample features: ['3minute_z_score', '3minute_momentum', '3minute_volatility']...
+  2. AAREYDRUGS - AJRINFRA: 0.952 accuracy
+      Features: 16 features
+      Sample features: ['3minute_z_score', '3minute_momentum', '3minute_volatility']...
+  3. AARVEEDEN - ALPSINDUS: 0.893 accuracy
+      Features: 16 features
+      Sample features: ['3minute_z_score', '3minute_momentum', '3minute_volatility']...
+  4. AARVI - ADANITRANS: 0.913 accuracy
+      Features: 16 features
+      Sample features: ['3minute_z_score', '3minute_momentum', '3minute_volatility']...
+  5. AAVAS - AMRUTANJAN: 0.911 accuracy
+      Features: 16 features
+      Sample features: ['3minute_z_score', '3minute_momentum', '3minute_volatility']...
+  6. AFFLE - AMRUTANJAN: 0.902 accuracy
+      Features: 16 features
+      Sample features: ['3minute_z_score', '3minute_momentum', '3minute_volatility']...
+  7. AGSTRA - AJRINFRA: 0.903 accuracy
+      Features: 16 features
+      Sample features: ['3minute_z_score', '3minute_momentum', '3minute_volatility']...
+  8. AGSTRA - ANURAS: 0.935 accuracy
+      Features: 16 features
+      Sample features: ['3minute_z_score', '3minute_momentum', '3minute_volatility']...
+  9. ADANITRANS - AMRUTANJAN: 0.894 accuracy
+      Features: 16 features
+      Sample features: ['3minute_z_score', '3minute_momentum', '3minute_volatility']...
+  10. AARVEEDEN - AFFLE: 0.896 accuracy
+      Features: 16 features
+      Sample features: ['3minute_z_score', '3minute_momentum', '3minute_volatility']...
+
+------------------------------------------------------------
+STEP 2: LOAD INTRADAY TEST DATA
+------------------------------------------------------------
+
+
+📂 STEP 2: LOAD INTRADAY TEST DATA
+--------------------------------------------------
+📊 Found 1171 CSV files
+  Processed 5 stocks
+  Processed 10 stocks
+✅ Loaded INTRADAY data for 13 stocks
+📅 Date range: 2021-08-06 09:15:00+05:30 to 2022-10-10 15:27:00+05:30
+📊 Total intraday bars: 35002
+⏰ Resolution: 3-minute bars (NO DAILY RESAMPLING)
+
+------------------------------------------------------------
+STEP 3: INDIVIDUAL PAIR BACKTESTS (FIXED)
+------------------------------------------------------------
+
+
+🔄 STEP 3: INDIVIDUAL PAIR BACKTESTS (FIXED)
+--------------------------------------------------
+
+📈 Backtesting ABSLAMC - APCL with fixes...
+❌ ERROR: Backtest failed for ABSLAMC-APCL: name 'position_stock2' is not defined
+
+📈 Backtesting AAREYDRUGS - AJRINFRA with fixes...
+❌ ERROR: Backtest failed for AAREYDRUGS-AJRINFRA: name 'position_stock2' is not defined
+
+📈 Backtesting AARVEEDEN - ALPSINDUS with fixes...
+❌ ERROR: Backtest failed for AARVEEDEN-ALPSINDUS: name 'position_stock2' is not defined
+
+📈 Backtesting AARVI - ADANITRANS with fixes...
+❌ ERROR: Backtest failed for AARVI-ADANITRANS: name 'position_stock2' is not defined
+
+📈 Backtesting AAVAS - AMRUTANJAN with fixes...
+❌ ERROR: Backtest failed for AAVAS-AMRUTANJAN: name 'position_stock2' is not defined
+
+📈 Backtesting AFFLE - AMRUTANJAN with fixes...
+❌ ERROR: Backtest failed for AFFLE-AMRUTANJAN: name 'position_stock2' is not defined
+
+📈 Backtesting AGSTRA - AJRINFRA with fixes...
+❌ ERROR: Backtest failed for AGSTRA-AJRINFRA: name 'position_stock2' is not defined
+
+📈 Backtesting AGSTRA - ANURAS with fixes...
+
+📊 AGSTRA-ANURAS FIXED RESULTS
+--------------------------------------------------
+  Total Return (%): +0.00
+  Cumulative Return (%): +0.00
+  Annualized Return (%): +0.00
+  Sharpe Ratio: 0
+  Win Rate (%): 0
+  Max Drawdown (%): 0
+  Total Trades: 0
+  Net PnL ($): 0
+--------------------------------------------------
+  ✅ Total Return: +0.00%
+  📈 Cumulative Return: +0.00%
+  📊 Annualized Return: +0.00%
+  📊 Sharpe Ratio: +0.000
+  🎯 Win Rate: 0.0%
+  📉 Max Drawdown: +0.00%
+  💰 Net PnL: $+0.00
+
+📈 Backtesting ADANITRANS - AMRUTANJAN with fixes...
+❌ ERROR: Backtest failed for ADANITRANS-AMRUTANJAN: name 'position_stock2' is not defined
+
+📈 Backtesting AARVEEDEN - AFFLE with fixes...
+❌ ERROR: Backtest failed for AARVEEDEN-AFFLE: name 'position_stock2' is not defined
+
+✅ Completed FIXED backtests for 1 pairs
+
+------------------------------------------------------------
+STEP 4: PORTFOLIO BACKTESTING (FIXED)
+------------------------------------------------------------
+
+
+💼 STEP 4: PORTFOLIO BACKTESTING (FIXED)
+--------------------------------------------------
+
+📊 PORTFOLIO PERFORMANCE (FIXED)
+--------------------------------------------------
+  Portfolio Return (%): +0.00
+  Portfolio Cumulative Return (%): +0.00
+  Portfolio Annualized Return (%): +0.00
+  Portfolio Sharpe: 0
+  Portfolio Win Rate (%): 0
+  Portfolio Max DD (%): 0
+  Total Portfolio Trades: 0
+--------------------------------------------------
+✅ Portfolio backtesting completed with fixes
+📈 Portfolio Total Return: +0.00%
+📈 Portfolio Cumulative Return: +0.00%
+📊 Portfolio Annualized Return: +0.00%
+📊 Portfolio Sharpe Ratio: +0.000
+🎯 Portfolio Win Rate: 0.0%
+📉 Portfolio Max Drawdown: +0.00%
+
+------------------------------------------------------------
+STEP 5: CUMULATIVE RETURNS ANALYSIS (FIXED)
+------------------------------------------------------------
+
+
+📈 STEP 5: CUMULATIVE RETURNS ANALYSIS (FIXED)
+--------------------------------------------------
+📊 CUMULATIVE RETURNS SUMMARY (FIXED):
+------------------------------------------------------------
+  AGSTRA-ANURAS:
+    Final Cumulative Return: +0.00%
+    Maximum Cumulative Return: +0.00%
+    Minimum Cumulative Return: +0.00%
+
+💼 PORTFOLIO (FIXED):
+    Final Cumulative Return: +0.00%
+    Maximum Cumulative Return: +0.00%
+    Minimum Cumulative Return: +0.00%
+------------------------------------------------------------
+✅ All cumulative returns calculated with correct compounding
+
+------------------------------------------------------------
+STEP 6: PERFORMANCE ANALYSIS
+------------------------------------------------------------
+
+
+📈 STEP 6: PERFORMANCE ANALYSIS
+--------------------------------------------------
+📊 INDIVIDUAL PAIR PERFORMANCE (FIXED)
+----------------------------------------
+ 1. AGSTRA-ANURAS: Cumulative Return:  +0.00%, Total Return:  +0.00%, Sharpe: +0.000, Net PnL: $   +0.00
+
+💼 PORTFOLIO PERFORMANCE (FIXED)
+----------------------------------------
+Portfolio Cumulative Return:     +0.00%
+Portfolio Total Return:           +0.00%
+Portfolio Annualized Return:       +0.00%
+Portfolio Sharpe:                 +0.000
+Portfolio Win Rate:               0.0%
+Portfolio Max DD:                 +0.00%
+
+📊 AVERAGE INDIVIDUAL PERFORMANCE
+----------------------------------------
+Avg Cumulative Return:     +0.00%
+Avg Total Return:           +0.00%
+Avg Sharpe:                 +0.000
+Avg Win Rate:               0.0%
+
+🎯 PORTFOLIO BENEFITS (FIXED)
+----------------------------------------
+Cumulative Return Bonus:    +0.00%
+Total Return Bonus:         +0.00%
+Risk Reduction:             +0.000 Sharpe
+
+------------------------------------------------------------
+STEP 7: RISK ANALYSIS
+------------------------------------------------------------
+
+
+⚠️  STEP 7: RISK ANALYSIS
+--------------------------------------------------
+💼 PORTFOLIO RISK METRICS (FIXED)
+----------------------------------------
+Annual Volatility:     0.00%
+95% VaR (annual):      0.00%
+Max Drawdown:          0.00%
+❌ ERROR: Backtesting failed: float division by zero
+
+
+================================================================================
+BACKTESTING SESSION COMPLETED
+Session Ended: 2026-03-07 22:14:31
+Log File: backtest_logs_fixed\backtest_log_20260307_220840.txt
+================================================================================
