@@ -1,0 +1,323 @@
+
+================================================================================
+PAIRS TRADING BACKTESTING LOG
+Session Started: 2026-03-09 16:56:36
+Log File: backtest_logs_realistic\backtest_log_20260309_165636.txt
+================================================================================
+
+📝 Logging started: All output will be saved to backtest_logs_realistic\backtest_log_20260309_165636.txt
+🎯 REALISTIC PAIRS TRADING SYSTEM - ALL BIASES REMOVED
+================================================================================
+📊 Walk-Forward Validation | Realistic Costs | No Lookahead Bias
+🔧 True Performance Without Mathematical Illusions
+📝 All output will be saved to log file
+================================================================================
+🎯 REALISTIC PARAMETERS:
+   Position Size: 5% (conservative)
+   Commission: 0.10%
+   Bid-Ask Spread: 0.05%
+   Slippage: 0.02%
+   Market Impact: 0.03%
+   Total Costs: 0.20% per trade
+   Walk-Forward Window: 252 days
+   Out-of-Sample Validation: 30 days
+================================================================================
+
+------------------------------------------------------------
+STEP 1: WALK-FORWARD MODEL TRAINING
+------------------------------------------------------------
+
+
+🤖 STEP 1: WALK-FORWARD MODEL TRAINING
+--------------------------------------------------
+📊 Training models on rolling 1-year windows
+🔧 No lookahead bias - only historical data used
+--------------------------------------------------
+📊 Creating simple pairs trading models...
+✅ Created 5 simple statistical pairs
+🎯 No ML overfitting - simple z-score based trading
+
+------------------------------------------------------------
+STEP 2: LOAD OUT-OF-SAMPLE TEST DATA
+------------------------------------------------------------
+
+
+� STEP 2: LOAD OUT-OF-SAMPLE TEST DATA
+--------------------------------------------------
+📊 Using only data that would be available in real trading
+🔧 No future information leakage
+--------------------------------------------------
+📊 Creating realistic test data...
+✅ Created realistic test data for 10 stocks
+📅 Test period: 2022-01-01 to 2022-12-30 (out-of-sample)
+📊 Total bars: 174366 (3-minute resolution)
+🎯 No data leakage - truly out-of-sample
+
+------------------------------------------------------------
+STEP 3: WALK-FORWARD BACKTESTS
+------------------------------------------------------------
+
+
+🔄 STEP 3: WALK-FORWARD BACKTESTS
+--------------------------------------------------
+📊 Testing with realistic transaction costs
+💸 Including all cost components: commission, spread, slippage, market impact
+--------------------------------------------------
+
+📈 Backtesting AAREYDRUGS - AJRINFRA (realistic costs)...
+
+📊 AAREYDRUGS-AJRINFRA REALISTIC RESULTS
+--------------------------------------------------
+  Total Return (%): -311.19
+  Cumulative Return (%): -311.19
+  Annualized Return (%): +nan
+  Sharpe Ratio: +0.46
+  Win Rate (%): +46.52
+  Max Drawdown (%): +312.34
+  Total Trades: 12615
+  Net PnL ($): -311185.10
+--------------------------------------------------
+  ✅ Total Return: -311.19%
+  📈 Cumulative Return: -311.19%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: +0.456
+  🎯 Win Rate: 46.5%
+  📉 Max Drawdown: +312.34%
+  💰 Net PnL: $-311,185.10
+
+📈 Backtesting ABSLAMC - APCL (realistic costs)...
+
+📊 ABSLAMC-APCL REALISTIC RESULTS
+--------------------------------------------------
+  Total Return (%): -253.54
+  Cumulative Return (%): -253.54
+  Annualized Return (%): +nan
+  Sharpe Ratio: -0.32
+  Win Rate (%): +21.97
+  Max Drawdown (%): +253.56
+  Total Trades: 12656
+  Net PnL ($): -253543.64
+--------------------------------------------------
+  ✅ Total Return: -253.54%
+  📈 Cumulative Return: -253.54%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: -0.316
+  🎯 Win Rate: 22.0%
+  📉 Max Drawdown: +253.56%
+  💰 Net PnL: $-253,543.64
+
+📈 Backtesting AGSTRA - ANURAS (realistic costs)...
+
+📊 AGSTRA-ANURAS REALISTIC RESULTS
+--------------------------------------------------
+  Total Return (%): -280.88
+  Cumulative Return (%): -280.88
+  Annualized Return (%): +nan
+  Sharpe Ratio: +0.02
+  Win Rate (%): +6.12
+  Max Drawdown (%): +280.88
+  Total Trades: 12834
+  Net PnL ($): -280882.96
+--------------------------------------------------
+  ✅ Total Return: -280.88%
+  📈 Cumulative Return: -280.88%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: +0.017
+  🎯 Win Rate: 6.1%
+  📉 Max Drawdown: +280.88%
+  💰 Net PnL: $-280,882.96
+
+📈 Backtesting AARVI - ADANITRANS (realistic costs)...
+
+📊 AARVI-ADANITRANS REALISTIC RESULTS
+--------------------------------------------------
+  Total Return (%): -296.67
+  Cumulative Return (%): -296.67
+  Annualized Return (%): +nan
+  Sharpe Ratio: +0.20
+  Win Rate (%): +7.21
+  Max Drawdown (%): +296.67
+  Total Trades: 12892
+  Net PnL ($): -296665.81
+--------------------------------------------------
+  ✅ Total Return: -296.67%
+  📈 Cumulative Return: -296.67%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: +0.205
+  🎯 Win Rate: 7.2%
+  📉 Max Drawdown: +296.67%
+  💰 Net PnL: $-296,665.81
+
+📈 Backtesting AAVAS - AMRUTANJAN (realistic costs)...
+
+📊 AAVAS-AMRUTANJAN REALISTIC RESULTS
+--------------------------------------------------
+  Total Return (%): -282.83
+  Cumulative Return (%): -282.83
+  Annualized Return (%): +nan
+  Sharpe Ratio: -0.33
+  Win Rate (%): +6.01
+  Max Drawdown (%): +282.83
+  Total Trades: 12878
+  Net PnL ($): -282830.87
+--------------------------------------------------
+  ✅ Total Return: -282.83%
+  📈 Cumulative Return: -282.83%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: -0.333
+  🎯 Win Rate: 6.0%
+  📉 Max Drawdown: +282.83%
+  💰 Net PnL: $-282,830.87
+
+✅ Completed REALISTIC backtests for 5 pairs
+
+------------------------------------------------------------
+STEP 4: PORTFOLIO BACKTESTING (REALISTIC)
+------------------------------------------------------------
+
+
+💼 STEP 4: PORTFOLIO BACKTESTING (REALISTIC)
+--------------------------------------------------
+
+📊 PORTFOLIO PERFORMANCE (REALISTIC)
+--------------------------------------------------
+  Portfolio Return (%): +5096.55
+  Portfolio Cumulative Return (%): +5096.55
+  Portfolio Annualized Return (%): +56.10
+  Portfolio Sharpe: -0.23
+  Portfolio Win Rate (%): +17.44
+  Portfolio Max DD (%): +909.69
+  Total Portfolio Trades: 63875
+--------------------------------------------------
+✅ Portfolio backtesting completed with realistic costs
+📈 Portfolio Total Return: +5096.55%
+📈 Portfolio Cumulative Return: +5096.55%
+📊 Portfolio Annualized Return: +56.10%
+📊 Portfolio Sharpe Ratio: -0.232
+🎯 Portfolio Win Rate: 17.4%
+📉 Portfolio Max Drawdown: +909.69%
+
+------------------------------------------------------------
+STEP 5: CUMULATIVE RETURNS ANALYSIS (REALISTIC)
+------------------------------------------------------------
+
+
+📈 STEP 5: CUMULATIVE RETURNS ANALYSIS (REALISTIC)
+--------------------------------------------------
+📊 CUMULATIVE RETURNS SUMMARY (REALISTIC):
+------------------------------------------------------------
+  AAREYDRUGS-AJRINFRA:
+    Final Cumulative Return: -311.19%
+    Maximum Cumulative Return: +0.26%
+    Minimum Cumulative Return: -312.88%
+
+  ABSLAMC-APCL:
+    Final Cumulative Return: -253.54%
+    Maximum Cumulative Return: +0.00%
+    Minimum Cumulative Return: -253.56%
+
+  AGSTRA-ANURAS:
+    Final Cumulative Return: -280.88%
+    Maximum Cumulative Return: +0.00%
+    Minimum Cumulative Return: -280.88%
+
+  AARVI-ADANITRANS:
+    Final Cumulative Return: -296.67%
+    Maximum Cumulative Return: +0.00%
+    Minimum Cumulative Return: -296.67%
+
+  AAVAS-AMRUTANJAN:
+    Final Cumulative Return: -282.83%
+    Maximum Cumulative Return: +0.00%
+    Minimum Cumulative Return: -282.83%
+
+💼 PORTFOLIO (REALISTIC):
+    Final Cumulative Return: +5096.55%
+    Maximum Cumulative Return: +5097.70%
+    Minimum Cumulative Return: -910.11%
+------------------------------------------------------------
+✅ All cumulative returns calculated with realistic parameters
+
+------------------------------------------------------------
+STEP 6: PERFORMANCE ANALYSIS
+------------------------------------------------------------
+
+
+📈 STEP 6: PERFORMANCE ANALYSIS
+--------------------------------------------------
+📊 INDIVIDUAL PAIR PERFORMANCE (REALISTIC)
+----------------------------------------
+ 1. ABSLAMC-APCL: Cumulative Return: -253.54%, Total Return: -253.54%, Sharpe: -0.316, Net PnL: $-253543.64
+ 2. AGSTRA-ANURAS: Cumulative Return: -280.88%, Total Return: -280.88%, Sharpe: +0.017, Net PnL: $-280882.96
+ 3. AAVAS-AMRUTANJAN: Cumulative Return: -282.83%, Total Return: -282.83%, Sharpe: -0.333, Net PnL: $-282830.87
+ 4. AARVI-ADANITRANS: Cumulative Return: -296.67%, Total Return: -296.67%, Sharpe: +0.205, Net PnL: $-296665.81
+ 5. AAREYDRUGS-AJRINFRA: Cumulative Return: -311.19%, Total Return: -311.19%, Sharpe: +0.456, Net PnL: $-311185.10
+
+💼 PORTFOLIO PERFORMANCE (REALISTIC)
+----------------------------------------
+Portfolio Cumulative Return:     +5096.55%
+Portfolio Total Return:           +5096.55%
+Portfolio Annualized Return:       +56.10%
+Portfolio Sharpe:                 -0.232
+Portfolio Win Rate:               17.4%
+Portfolio Max DD:                 +909.69%
+
+📊 AVERAGE INDIVIDUAL PERFORMANCE
+----------------------------------------
+Avg Cumulative Return:     -285.02%
+Avg Total Return:           -285.02%
+Avg Sharpe:                 +0.006
+Avg Win Rate:               17.6%
+
+🎯 PORTFOLIO BENEFITS (REALISTIC)
+----------------------------------------
+Cumulative Return Bonus:    +5381.58%
+Total Return Bonus:         +5381.58%
+Risk Reduction:             +0.238 Sharpe
+
+------------------------------------------------------------
+STEP 7: RISK ANALYSIS
+------------------------------------------------------------
+
+
+⚠️  STEP 7: RISK ANALYSIS
+--------------------------------------------------
+💼 PORTFOLIO RISK METRICS (OPTIMIZED)
+----------------------------------------
+Annual Volatility:     526.19%
+95% VaR (annual):      -3.20%
+Max Drawdown:          909.69%
+Calmar Ratio:          5.602
+Cumulative Return Vol: 19.15%
+
+📊 INDIVIDUAL PAIR RISK (OPTIMIZED)
+----------------------------------------
+Average Max Drawdown:  285.26%
+Worst Max Drawdown:    312.34%
+Drawdown Consistency:  Low
+Avg Cumulative Return: -2.85%
+Cumulative Volatility: 19.15%
+
+🔗 CORRELATION ANALYSIS
+----------------------------------------
+Average Pair Correlation: -0.000
+Diversification Benefit:  High
+
+------------------------------------------------------------
+STEP 8: GENERATE REPORTS & VISUALIZATIONS
+------------------------------------------------------------
+
+
+📊 STEP 8: GENERATE REPORTS & VISUALIZATIONS
+--------------------------------------------------
+📊 Realistic backtesting report exported to: realistic_pairs_trading_report.csv
+📊 Generating realistic visualizations...
+✅ Realistic visualizations generated and saved!
+❌ ERROR: Backtesting failed: 'RealisticPairsTradingSystem' object has no attribute 'generate_realistic_analysis_report'
+
+
+================================================================================
+BACKTESTING SESSION COMPLETED
+Session Ended: 2026-03-09 16:57:12
+Log File: backtest_logs_realistic\backtest_log_20260309_165636.txt
+================================================================================

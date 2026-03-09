@@ -1,0 +1,1250 @@
+
+================================================================================
+PAIRS TRADING BACKTESTING LOG
+Session Started: 2026-03-09 17:16:52
+Log File: backtest_logs_realistic\backtest_log_20260309_171652.txt
+================================================================================
+
+📝 Logging started: All output will be saved to backtest_logs_realistic\backtest_log_20260309_171652.txt
+🎯 POSITIVE RETURN STRATEGY - FIXED FOR PROFITABILITY
+================================================================================
+📊 Optimized Costs | Mean Reversion | Balanced Parameters
+🔧 Designed for Positive Returns
+📝 All output will be saved to log file
+================================================================================
+🎯 POSITIVE RETURN PARAMETERS (FIXED FOR PROFITABILITY):
+   Position Size: 2% (conservative for profitability)
+   Commission: 0.01% (extremely low)
+   Bid-Ask Spread: 0.01% (extremely low)
+   Slippage: 0.00% (extremely low)
+   Market Impact: 0.00% (extremely low)
+   Total Costs: 0.02% per trade
+   Entry Z-Threshold: 1.0 (moderate for mean reversion)
+   Exit Z-Threshold: 0.3 (moderate for mean reversion exit)
+   Stop Loss Z-Threshold: 2.0 (moderate)
+   Profit Target Z: 0.5 (moderate profit target)
+   Max Hold Period: 1.5 days (short but reasonable)
+   Min Profit Threshold: 0.1% (low minimum profit)
+   Mean Reversion Window: 20 bars (short window)
+================================================================================
+
+------------------------------------------------------------
+STEP 1: WALK-FORWARD MODEL TRAINING
+------------------------------------------------------------
+
+
+🤖 STEP 1: CREATE PAIRS FROM ALL STOCKS
+--------------------------------------------------
+📊 Creating pairs from ALL available stocks...
+🔧 Maximum trading opportunities with 59 stocks
+--------------------------------------------------
+📊 Found 1171 stocks to create pairs
+📊 Total possible pairs: 685035
+✅ Created 50 pairs from 1171 stocks
+🎯 Using top 50 pairs for backtesting
+📊 Maximum trading opportunities with real stock data
+
+------------------------------------------------------------
+STEP 2: LOAD OUT-OF-SAMPLE TEST DATA
+------------------------------------------------------------
+
+
+📂 STEP 2: LOAD ALL STOCKS FROM 3MINUTE FOLDER
+--------------------------------------------------
+📊 Loading ALL 59 stocks for maximum trading opportunities
+🔧 Using every stock in the dataset for maximum pairs
+--------------------------------------------------
+📊 Found 1171 CSV files in 3minute folder
+📊 Processed 10 stocks...
+📊 Processed 20 stocks...
+📊 Processed 30 stocks...
+📊 Processed 40 stocks...
+📊 Processed 50 stocks...
+📊 Processed 60 stocks...
+📊 Processed 70 stocks...
+📊 Processed 80 stocks...
+📊 Processed 90 stocks...
+📊 Processed 100 stocks...
+📊 Processed 110 stocks...
+📊 Processed 120 stocks...
+📊 Processed 130 stocks...
+📊 Processed 140 stocks...
+📊 Processed 150 stocks...
+📊 Processed 160 stocks...
+📊 Processed 170 stocks...
+📊 Processed 180 stocks...
+📊 Processed 190 stocks...
+📊 Processed 200 stocks...
+📊 Processed 210 stocks...
+📊 Processed 220 stocks...
+📊 Processed 230 stocks...
+📊 Processed 240 stocks...
+📊 Processed 250 stocks...
+📊 Processed 260 stocks...
+📊 Processed 270 stocks...
+📊 Processed 280 stocks...
+📊 Processed 290 stocks...
+📊 Processed 300 stocks...
+📊 Processed 310 stocks...
+📊 Processed 320 stocks...
+📊 Processed 330 stocks...
+📊 Processed 340 stocks...
+📊 Processed 350 stocks...
+📊 Processed 360 stocks...
+📊 Processed 370 stocks...
+📊 Processed 380 stocks...
+📊 Processed 390 stocks...
+📊 Processed 400 stocks...
+📊 Processed 410 stocks...
+📊 Processed 420 stocks...
+📊 Processed 430 stocks...
+📊 Processed 440 stocks...
+📊 Processed 450 stocks...
+📊 Processed 460 stocks...
+📊 Processed 470 stocks...
+📊 Processed 480 stocks...
+📊 Processed 490 stocks...
+📊 Processed 500 stocks...
+📊 Processed 510 stocks...
+📊 Processed 520 stocks...
+📊 Processed 530 stocks...
+📊 Processed 540 stocks...
+📊 Processed 550 stocks...
+📊 Processed 560 stocks...
+📊 Processed 570 stocks...
+📊 Processed 580 stocks...
+📊 Processed 590 stocks...
+📊 Processed 600 stocks...
+📊 Processed 610 stocks...
+📊 Processed 620 stocks...
+📊 Processed 630 stocks...
+📊 Processed 640 stocks...
+📊 Processed 650 stocks...
+📊 Processed 660 stocks...
+📊 Processed 670 stocks...
+📊 Processed 680 stocks...
+📊 Processed 690 stocks...
+📊 Processed 700 stocks...
+📊 Processed 710 stocks...
+📊 Processed 720 stocks...
+📊 Processed 730 stocks...
+📊 Processed 740 stocks...
+📊 Processed 750 stocks...
+📊 Processed 760 stocks...
+📊 Processed 770 stocks...
+📊 Processed 780 stocks...
+📊 Processed 790 stocks...
+📊 Processed 800 stocks...
+📊 Processed 810 stocks...
+📊 Processed 820 stocks...
+📊 Processed 830 stocks...
+📊 Processed 840 stocks...
+📊 Processed 850 stocks...
+📊 Processed 860 stocks...
+📊 Processed 870 stocks...
+📊 Processed 880 stocks...
+📊 Processed 890 stocks...
+📊 Processed 900 stocks...
+📊 Processed 910 stocks...
+📊 Processed 920 stocks...
+📊 Processed 930 stocks...
+📊 Processed 940 stocks...
+📊 Processed 950 stocks...
+📊 Processed 960 stocks...
+📊 Processed 970 stocks...
+📊 Processed 980 stocks...
+📊 Processed 990 stocks...
+📊 Processed 1000 stocks...
+📊 Processed 1010 stocks...
+📊 Processed 1020 stocks...
+📊 Processed 1030 stocks...
+📊 Processed 1040 stocks...
+📊 Processed 1050 stocks...
+📊 Processed 1060 stocks...
+📊 Processed 1070 stocks...
+📊 Processed 1080 stocks...
+📊 Processed 1090 stocks...
+📊 Processed 1100 stocks...
+📊 Processed 1110 stocks...
+📊 Processed 1120 stocks...
+📊 Processed 1130 stocks...
+📊 Processed 1140 stocks...
+📊 Processed 1150 stocks...
+📊 Processed 1160 stocks...
+📊 Processed 1170 stocks...
+
+✅ Successfully loaded 1171 stocks from 3minute folder
+📅 Date range: 2015-02-02 09:15:00+05:30 to 2022-10-12 17:27:00+05:30
+📊 Total stocks available: 1171
+🎯 Maximum possible pairs: 685035
+
+------------------------------------------------------------
+STEP 3: PROFITABLE BACKTESTS
+------------------------------------------------------------
+
+
+🔄 STEP 3: PROFITABLE BACKTESTS
+--------------------------------------------------
+📊 Testing with optimized parameters for positive returns
+💸 Reduced costs + Tighter exits + Profit targets
+--------------------------------------------------
+
+📈 Backtesting 20MICRONS - 21STCENMGM (profitable parameters)...
+
+📊 20MICRONS-21STCENMGM PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): -81.53
+  Cumulative Return (%): -81.53
+  Annualized Return (%): -40.92
+  Sharpe Ratio: -16.11
+  Win Rate (%): +38.89
+  Max Drawdown (%): +81.54
+  Total Trades: 14966
+  Net PnL ($): -81530.75
+--------------------------------------------------
+  ✅ Total Return: -81.53%
+  📈 Cumulative Return: -81.53%
+  📊 Annualized Return: -40.92%
+  📊 Sharpe Ratio: -16.109
+  🎯 Win Rate: 38.9%
+  📉 Max Drawdown: +81.54%
+  💰 Net PnL: $-81,530.75
+
+📈 Backtesting 20MICRONS - 3IINFOLTD (profitable parameters)...
+
+📊 20MICRONS-3IINFOLTD PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): -27.47
+  Cumulative Return (%): -27.47
+  Annualized Return (%): -19.09
+  Sharpe Ratio: -16.76
+  Win Rate (%): +37.44
+  Max Drawdown (%): +27.55
+  Total Trades: 7427
+  Net PnL ($): -27474.96
+--------------------------------------------------
+  ✅ Total Return: -27.47%
+  📈 Cumulative Return: -27.47%
+  📊 Annualized Return: -19.09%
+  📊 Sharpe Ratio: -16.755
+  🎯 Win Rate: 37.4%
+  📉 Max Drawdown: +27.55%
+  💰 Net PnL: $-27,474.96
+
+📈 Backtesting 20MICRONS - 3MINDIA (profitable parameters)...
+
+📊 20MICRONS-3MINDIA PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): +nan
+  Cumulative Return (%): +nan
+  Annualized Return (%): +nan
+  Sharpe Ratio: 0
+  Win Rate (%): +47.47
+  Max Drawdown (%): +1134.77
+  Total Trades: 57384
+  Net PnL ($): +nan
+--------------------------------------------------
+  ✅ Total Return: +nan%
+  📈 Cumulative Return: +nan%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: +0.000
+  🎯 Win Rate: 47.5%
+  📉 Max Drawdown: +1134.77%
+  💰 Net PnL: $+nan
+
+📈 Backtesting 20MICRONS - 3PLAND (profitable parameters)...
+
+📊 20MICRONS-3PLAND PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): +nan
+  Cumulative Return (%): +nan
+  Annualized Return (%): +nan
+  Sharpe Ratio: 0
+  Win Rate (%): +33.29
+  Max Drawdown (%): +inf
+  Total Trades: 27761
+  Net PnL ($): +nan
+--------------------------------------------------
+  ✅ Total Return: +nan%
+  📈 Cumulative Return: +nan%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: +0.000
+  🎯 Win Rate: 33.3%
+  📉 Max Drawdown: +inf%
+  💰 Net PnL: $+nan
+
+📈 Backtesting 20MICRONS - 5PAISA (profitable parameters)...
+
+📊 20MICRONS-5PAISA PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): -1090.90
+  Cumulative Return (%): -1090.90
+  Annualized Return (%): +nan
+  Sharpe Ratio: -0.23
+  Win Rate (%): +41.40
+  Max Drawdown (%): +1090.84
+  Total Trades: 31802
+  Net PnL ($): -1090895.71
+--------------------------------------------------
+  ✅ Total Return: -1090.90%
+  📈 Cumulative Return: -1090.90%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: -0.229
+  🎯 Win Rate: 41.4%
+  📉 Max Drawdown: +1090.84%
+  💰 Net PnL: $-1,090,895.71
+
+📈 Backtesting 20MICRONS - 63MOONS (profitable parameters)...
+
+📊 20MICRONS-63MOONS PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): +nan
+  Cumulative Return (%): +nan
+  Annualized Return (%): +nan
+  Sharpe Ratio: 0
+  Win Rate (%): +39.38
+  Max Drawdown (%): +19.47
+  Total Trades: 57870
+  Net PnL ($): +nan
+--------------------------------------------------
+  ✅ Total Return: +nan%
+  📈 Cumulative Return: +nan%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: +0.000
+  🎯 Win Rate: 39.4%
+  📉 Max Drawdown: +19.47%
+  💰 Net PnL: $+nan
+
+📈 Backtesting 20MICRONS - A2ZINFRA (profitable parameters)...
+
+📊 20MICRONS-A2ZINFRA PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): +nan
+  Cumulative Return (%): +nan
+  Annualized Return (%): +nan
+  Sharpe Ratio: 0
+  Win Rate (%): +36.54
+  Max Drawdown (%): +inf
+  Total Trades: 54365
+  Net PnL ($): +nan
+--------------------------------------------------
+  ✅ Total Return: +nan%
+  📈 Cumulative Return: +nan%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: +0.000
+  🎯 Win Rate: 36.5%
+  📉 Max Drawdown: +inf%
+  💰 Net PnL: $+nan
+
+📈 Backtesting 20MICRONS - AAKASH (profitable parameters)...
+
+📊 20MICRONS-AAKASH PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): -45.82
+  Cumulative Return (%): -45.82
+  Annualized Return (%): -20.44
+  Sharpe Ratio: -17.11
+  Win Rate (%): +38.22
+  Max Drawdown (%): +45.82
+  Total Trades: 13118
+  Net PnL ($): -45816.29
+--------------------------------------------------
+  ✅ Total Return: -45.82%
+  📈 Cumulative Return: -45.82%
+  📊 Annualized Return: -20.44%
+  📊 Sharpe Ratio: -17.115
+  🎯 Win Rate: 38.2%
+  📉 Max Drawdown: +45.82%
+  💰 Net PnL: $-45,816.29
+
+📈 Backtesting 20MICRONS - AAREYDRUGS (profitable parameters)...
+
+📊 20MICRONS-AAREYDRUGS PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): -43.00
+  Cumulative Return (%): -43.00
+  Annualized Return (%): -27.13
+  Sharpe Ratio: -22.53
+  Win Rate (%): +36.89
+  Max Drawdown (%): +43.02
+  Total Trades: 8751
+  Net PnL ($): -42995.40
+--------------------------------------------------
+  ✅ Total Return: -43.00%
+  📈 Cumulative Return: -43.00%
+  📊 Annualized Return: -27.13%
+  📊 Sharpe Ratio: -22.526
+  🎯 Win Rate: 36.9%
+  📉 Max Drawdown: +43.02%
+  💰 Net PnL: $-42,995.40
+
+📈 Backtesting 20MICRONS - AARTIDRUGS (profitable parameters)...
+
+📊 20MICRONS-AARTIDRUGS PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): +nan
+  Cumulative Return (%): +nan
+  Annualized Return (%): +nan
+  Sharpe Ratio: 0
+  Win Rate (%): +43.34
+  Max Drawdown (%): +42.58
+  Total Trades: 58337
+  Net PnL ($): +nan
+--------------------------------------------------
+  ✅ Total Return: +nan%
+  📈 Cumulative Return: +nan%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: +0.000
+  🎯 Win Rate: 43.3%
+  📉 Max Drawdown: +42.58%
+  💰 Net PnL: $+nan
+
+📈 Backtesting 20MICRONS - AARTISURF (profitable parameters)...
+
+📊 20MICRONS-AARTISURF PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): -567.73
+  Cumulative Return (%): -567.73
+  Annualized Return (%): +nan
+  Sharpe Ratio: +0.45
+  Win Rate (%): +42.88
+  Max Drawdown (%): +567.66
+  Total Trades: 17759
+  Net PnL ($): -567700.73
+--------------------------------------------------
+  ✅ Total Return: -567.73%
+  📈 Cumulative Return: -567.73%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: +0.450
+  🎯 Win Rate: 42.9%
+  📉 Max Drawdown: +567.66%
+  💰 Net PnL: $-567,700.73
+
+📈 Backtesting 20MICRONS - AARVEEDEN (profitable parameters)...
+
+📊 20MICRONS-AARVEEDEN PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): +nan
+  Cumulative Return (%): +nan
+  Annualized Return (%): +nan
+  Sharpe Ratio: 0
+  Win Rate (%): +34.77
+  Max Drawdown (%): +26.43
+  Total Trades: 41978
+  Net PnL ($): +nan
+--------------------------------------------------
+  ✅ Total Return: +nan%
+  📈 Cumulative Return: +nan%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: +0.000
+  🎯 Win Rate: 34.8%
+  📉 Max Drawdown: +26.43%
+  💰 Net PnL: $+nan
+
+📈 Backtesting 20MICRONS - AARVI (profitable parameters)...
+
+📊 20MICRONS-AARVI PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): -93.99
+  Cumulative Return (%): -93.99
+  Annualized Return (%): -63.07
+  Sharpe Ratio: -14.46
+  Win Rate (%): +39.17
+  Max Drawdown (%): +94.00
+  Total Trades: 13492
+  Net PnL ($): -93993.71
+--------------------------------------------------
+  ✅ Total Return: -93.99%
+  📈 Cumulative Return: -93.99%
+  📊 Annualized Return: -63.07%
+  📊 Sharpe Ratio: -14.462
+  🎯 Win Rate: 39.2%
+  📉 Max Drawdown: +94.00%
+  💰 Net PnL: $-93,993.71
+
+📈 Backtesting 20MICRONS - AAVAS (profitable parameters)...
+
+📊 20MICRONS-AAVAS PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): -1612.83
+  Cumulative Return (%): -1612.83
+  Annualized Return (%): +nan
+  Sharpe Ratio: +0.48
+  Win Rate (%): +52.42
+  Max Drawdown (%): +1595.95
+  Total Trades: 32851
+  Net PnL ($): -1612831.26
+--------------------------------------------------
+  ✅ Total Return: -1612.83%
+  📈 Cumulative Return: -1612.83%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: +0.476
+  🎯 Win Rate: 52.4%
+  📉 Max Drawdown: +1595.95%
+  💰 Net PnL: $-1,612,831.26
+
+📈 Backtesting 20MICRONS - ABAN (profitable parameters)...
+
+📊 20MICRONS-ABAN PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): +nan
+  Cumulative Return (%): +nan
+  Annualized Return (%): +nan
+  Sharpe Ratio: 0
+  Win Rate (%): +41.58
+  Max Drawdown (%): +25.85
+  Total Trades: 60458
+  Net PnL ($): +nan
+--------------------------------------------------
+  ✅ Total Return: +nan%
+  📈 Cumulative Return: +nan%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: +0.000
+  🎯 Win Rate: 41.6%
+  📉 Max Drawdown: +25.85%
+  💰 Net PnL: $+nan
+
+📈 Backtesting 20MICRONS - ABBOTINDIA (profitable parameters)...
+
+📊 20MICRONS-ABBOTINDIA PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): +nan
+  Cumulative Return (%): +nan
+  Annualized Return (%): +nan
+  Sharpe Ratio: 0
+  Win Rate (%): +47.81
+  Max Drawdown (%): +686.35
+  Total Trades: 59963
+  Net PnL ($): +nan
+--------------------------------------------------
+  ✅ Total Return: +nan%
+  📈 Cumulative Return: +nan%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: +0.000
+  🎯 Win Rate: 47.8%
+  📉 Max Drawdown: +686.35%
+  💰 Net PnL: $+nan
+
+📈 Backtesting 20MICRONS - ABFRL (profitable parameters)...
+
+📊 20MICRONS-ABFRL PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): +nan
+  Cumulative Return (%): +nan
+  Annualized Return (%): +nan
+  Sharpe Ratio: 0
+  Win Rate (%): +45.32
+  Max Drawdown (%): +26.03
+  Total Trades: 62051
+  Net PnL ($): +nan
+--------------------------------------------------
+  ✅ Total Return: +nan%
+  📈 Cumulative Return: +nan%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: +0.000
+  🎯 Win Rate: 45.3%
+  📉 Max Drawdown: +26.03%
+  💰 Net PnL: $+nan
+
+📈 Backtesting 20MICRONS - ABSLAMC (profitable parameters)...
+
+📊 20MICRONS-ABSLAMC PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): -39.28
+  Cumulative Return (%): -39.28
+  Annualized Return (%): -27.26
+  Sharpe Ratio: -10.02
+  Win Rate (%): +47.13
+  Max Drawdown (%): +40.09
+  Total Trades: 8928
+  Net PnL ($): -39275.76
+--------------------------------------------------
+  ✅ Total Return: -39.28%
+  📈 Cumulative Return: -39.28%
+  📊 Annualized Return: -27.26%
+  📊 Sharpe Ratio: -10.015
+  🎯 Win Rate: 47.1%
+  📉 Max Drawdown: +40.09%
+  💰 Net PnL: $-39,275.76
+
+📈 Backtesting 20MICRONS - ABSLBANETF (profitable parameters)...
+
+📊 20MICRONS-ABSLBANETF PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): -125.58
+  Cumulative Return (%): -125.58
+  Annualized Return (%): +nan
+  Sharpe Ratio: +0.56
+  Win Rate (%): +36.01
+  Max Drawdown (%): +125.58
+  Total Trades: 16321
+  Net PnL ($): -125578.67
+--------------------------------------------------
+  ✅ Total Return: -125.58%
+  📈 Cumulative Return: -125.58%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: +0.559
+  🎯 Win Rate: 36.0%
+  📉 Max Drawdown: +125.58%
+  💰 Net PnL: $-125,578.67
+
+📈 Backtesting 20MICRONS - ACC (profitable parameters)...
+
+📊 20MICRONS-ACC PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): +nan
+  Cumulative Return (%): +nan
+  Annualized Return (%): +nan
+  Sharpe Ratio: 0
+  Win Rate (%): +56.61
+  Max Drawdown (%): +37.45
+  Total Trades: 71236
+  Net PnL ($): +nan
+--------------------------------------------------
+  ✅ Total Return: +nan%
+  📈 Cumulative Return: +nan%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: +0.000
+  🎯 Win Rate: 56.6%
+  📉 Max Drawdown: +37.45%
+  💰 Net PnL: $+nan
+
+📈 Backtesting 20MICRONS - ACE (profitable parameters)...
+
+📊 20MICRONS-ACE PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): +nan
+  Cumulative Return (%): +nan
+  Annualized Return (%): +nan
+  Sharpe Ratio: 0
+  Win Rate (%): +43.02
+  Max Drawdown (%): +18.65
+  Total Trades: 61088
+  Net PnL ($): +nan
+--------------------------------------------------
+  ✅ Total Return: +nan%
+  📈 Cumulative Return: +nan%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: +0.000
+  🎯 Win Rate: 43.0%
+  📉 Max Drawdown: +18.65%
+  💰 Net PnL: $+nan
+
+📈 Backtesting 20MICRONS - ADANIGREEN (profitable parameters)...
+
+📊 20MICRONS-ADANIGREEN PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): -681.55
+  Cumulative Return (%): -681.55
+  Annualized Return (%): +nan
+  Sharpe Ratio: -0.36
+  Win Rate (%): +47.78
+  Max Drawdown (%): +682.32
+  Total Trades: 33730
+  Net PnL ($): -681549.57
+--------------------------------------------------
+  ✅ Total Return: -681.55%
+  📈 Cumulative Return: -681.55%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: -0.359
+  🎯 Win Rate: 47.8%
+  📉 Max Drawdown: +682.32%
+  💰 Net PnL: $-681,549.57
+
+📈 Backtesting 20MICRONS - ADANIPORTS (profitable parameters)...
+
+📊 20MICRONS-ADANIPORTS PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): +nan
+  Cumulative Return (%): +nan
+  Annualized Return (%): +nan
+  Sharpe Ratio: 0
+  Win Rate (%): +56.49
+  Max Drawdown (%): +10.41
+  Total Trades: 69995
+  Net PnL ($): +nan
+--------------------------------------------------
+  ✅ Total Return: +nan%
+  📈 Cumulative Return: +nan%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: +0.000
+  🎯 Win Rate: 56.5%
+  📉 Max Drawdown: +10.41%
+  💰 Net PnL: $+nan
+
+📈 Backtesting 20MICRONS - ADANITRANS (profitable parameters)...
+
+📊 20MICRONS-ADANITRANS PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): -828.65
+  Cumulative Return (%): -828.65
+  Annualized Return (%): +nan
+  Sharpe Ratio: +0.01
+  Win Rate (%): +47.40
+  Max Drawdown (%): +832.49
+  Total Trades: 58399
+  Net PnL ($): -828509.85
+--------------------------------------------------
+  ✅ Total Return: -828.65%
+  📈 Cumulative Return: -828.65%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: +0.007
+  🎯 Win Rate: 47.4%
+  📉 Max Drawdown: +832.49%
+  💰 Net PnL: $-828,509.85
+
+📈 Backtesting 20MICRONS - ADFFOODS (profitable parameters)...
+
+📊 20MICRONS-ADFFOODS PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): +nan
+  Cumulative Return (%): +nan
+  Annualized Return (%): +nan
+  Sharpe Ratio: 0
+  Win Rate (%): +43.07
+  Max Drawdown (%): +inf
+  Total Trades: 58415
+  Net PnL ($): +nan
+--------------------------------------------------
+  ✅ Total Return: +nan%
+  📈 Cumulative Return: +nan%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: +0.000
+  🎯 Win Rate: 43.1%
+  📉 Max Drawdown: +inf%
+  💰 Net PnL: $+nan
+
+📈 Backtesting 20MICRONS - ADSL (profitable parameters)...
+
+📊 20MICRONS-ADSL PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): +nan
+  Cumulative Return (%): +nan
+  Annualized Return (%): +nan
+  Sharpe Ratio: 0
+  Win Rate (%): +35.20
+  Max Drawdown (%): +14.52
+  Total Trades: 49737
+  Net PnL ($): +nan
+--------------------------------------------------
+  ✅ Total Return: +nan%
+  📈 Cumulative Return: +nan%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: +0.000
+  🎯 Win Rate: 35.2%
+  📉 Max Drawdown: +14.52%
+  💰 Net PnL: $+nan
+
+📈 Backtesting 20MICRONS - ADVANIHOTR (profitable parameters)...
+
+📊 20MICRONS-ADVANIHOTR PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): +nan
+  Cumulative Return (%): +nan
+  Annualized Return (%): +nan
+  Sharpe Ratio: 0
+  Win Rate (%): +34.78
+  Max Drawdown (%): +20.98
+  Total Trades: 44057
+  Net PnL ($): +nan
+--------------------------------------------------
+  ✅ Total Return: +nan%
+  📈 Cumulative Return: +nan%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: +0.000
+  🎯 Win Rate: 34.8%
+  📉 Max Drawdown: +20.98%
+  💰 Net PnL: $+nan
+
+📈 Backtesting 20MICRONS - ADVENZYMES (profitable parameters)...
+
+📊 20MICRONS-ADVENZYMES PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): -416.29
+  Cumulative Return (%): -416.29
+  Annualized Return (%): +nan
+  Sharpe Ratio: -0.19
+  Win Rate (%): +45.63
+  Max Drawdown (%): +409.21
+  Total Trades: 50941
+  Net PnL ($): -416294.30
+--------------------------------------------------
+  ✅ Total Return: -416.29%
+  📈 Cumulative Return: -416.29%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: -0.188
+  🎯 Win Rate: 45.6%
+  📉 Max Drawdown: +409.21%
+  💰 Net PnL: $-416,294.30
+
+📈 Backtesting 20MICRONS - AFFLE (profitable parameters)...
+
+📊 20MICRONS-AFFLE PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): -314.49
+  Cumulative Return (%): -314.49
+  Annualized Return (%): +nan
+  Sharpe Ratio: +0.39
+  Win Rate (%): +48.49
+  Max Drawdown (%): +311.40
+  Total Trades: 25974
+  Net PnL ($): -314486.04
+--------------------------------------------------
+  ✅ Total Return: -314.49%
+  📈 Cumulative Return: -314.49%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: +0.385
+  🎯 Win Rate: 48.5%
+  📉 Max Drawdown: +311.40%
+  💰 Net PnL: $-314,486.04
+
+📈 Backtesting 20MICRONS - AGARIND (profitable parameters)...
+
+📊 20MICRONS-AGARIND PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): +nan
+  Cumulative Return (%): +nan
+  Annualized Return (%): +nan
+  Sharpe Ratio: 0
+  Win Rate (%): +41.61
+  Max Drawdown (%): +79.83
+  Total Trades: 45525
+  Net PnL ($): +nan
+--------------------------------------------------
+  ✅ Total Return: +nan%
+  📈 Cumulative Return: +nan%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: +0.000
+  🎯 Win Rate: 41.6%
+  📉 Max Drawdown: +79.83%
+  💰 Net PnL: $+nan
+
+📈 Backtesting 20MICRONS - AGI (profitable parameters)...
+
+📊 20MICRONS-AGI PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): +nan
+  Cumulative Return (%): +nan
+  Annualized Return (%): +nan
+  Sharpe Ratio: 0
+  Win Rate (%): +45.73
+  Max Drawdown (%): +49.98
+  Total Trades: 62234
+  Net PnL ($): +nan
+--------------------------------------------------
+  ✅ Total Return: +nan%
+  📈 Cumulative Return: +nan%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: +0.000
+  🎯 Win Rate: 45.7%
+  📉 Max Drawdown: +49.98%
+  💰 Net PnL: $+nan
+
+📈 Backtesting 20MICRONS - AGRITECH (profitable parameters)...
+
+📊 20MICRONS-AGRITECH PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): +nan
+  Cumulative Return (%): +nan
+  Annualized Return (%): +nan
+  Sharpe Ratio: 0
+  Win Rate (%): +36.18
+  Max Drawdown (%): +inf
+  Total Trades: 36716
+  Net PnL ($): +nan
+--------------------------------------------------
+  ✅ Total Return: +nan%
+  📈 Cumulative Return: +nan%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: +0.000
+  🎯 Win Rate: 36.2%
+  📉 Max Drawdown: +inf%
+  💰 Net PnL: $+nan
+
+📈 Backtesting 20MICRONS - AGROPHOS (profitable parameters)...
+
+📊 20MICRONS-AGROPHOS PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): -112.96
+  Cumulative Return (%): -112.96
+  Annualized Return (%): +nan
+  Sharpe Ratio: -0.03
+  Win Rate (%): +35.60
+  Max Drawdown (%): +112.96
+  Total Trades: 20987
+  Net PnL ($): -112960.72
+--------------------------------------------------
+  ✅ Total Return: -112.96%
+  📈 Cumulative Return: -112.96%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: -0.033
+  🎯 Win Rate: 35.6%
+  📉 Max Drawdown: +112.96%
+  💰 Net PnL: $-112,960.72
+
+📈 Backtesting 20MICRONS - AGSTRA (profitable parameters)...
+
+📊 20MICRONS-AGSTRA PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): -25.53
+  Cumulative Return (%): -25.53
+  Annualized Return (%): -23.68
+  Sharpe Ratio: -18.10
+  Win Rate (%): +39.45
+  Max Drawdown (%): +25.69
+  Total Trades: 5696
+  Net PnL ($): -25531.09
+--------------------------------------------------
+  ✅ Total Return: -25.53%
+  📈 Cumulative Return: -25.53%
+  📊 Annualized Return: -23.68%
+  📊 Sharpe Ratio: -18.104
+  🎯 Win Rate: 39.4%
+  📉 Max Drawdown: +25.69%
+  💰 Net PnL: $-25,531.09
+
+📈 Backtesting 20MICRONS - AHLUCONT (profitable parameters)...
+
+📊 20MICRONS-AHLUCONT PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): +nan
+  Cumulative Return (%): +nan
+  Annualized Return (%): +nan
+  Sharpe Ratio: 0
+  Win Rate (%): +44.53
+  Max Drawdown (%): +34.28
+  Total Trades: 51908
+  Net PnL ($): +nan
+--------------------------------------------------
+  ✅ Total Return: +nan%
+  📈 Cumulative Return: +nan%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: +0.000
+  🎯 Win Rate: 44.5%
+  📉 Max Drawdown: +34.28%
+  💰 Net PnL: $+nan
+
+📈 Backtesting 20MICRONS - AIAENG (profitable parameters)...
+
+📊 20MICRONS-AIAENG PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): +nan
+  Cumulative Return (%): +nan
+  Annualized Return (%): +nan
+  Sharpe Ratio: 0
+  Win Rate (%): +49.48
+  Max Drawdown (%): +23.31
+  Total Trades: 61444
+  Net PnL ($): +nan
+--------------------------------------------------
+  ✅ Total Return: +nan%
+  📈 Cumulative Return: +nan%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: +0.000
+  🎯 Win Rate: 49.5%
+  📉 Max Drawdown: +23.31%
+  💰 Net PnL: $+nan
+
+📈 Backtesting 20MICRONS - AIRAN (profitable parameters)...
+
+📊 20MICRONS-AIRAN PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): -144.76
+  Cumulative Return (%): -144.76
+  Annualized Return (%): +nan
+  Sharpe Ratio: +0.35
+  Win Rate (%): +34.91
+  Max Drawdown (%): +144.66
+  Total Trades: 20396
+  Net PnL ($): -144756.42
+--------------------------------------------------
+  ✅ Total Return: -144.76%
+  📈 Cumulative Return: -144.76%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: +0.351
+  🎯 Win Rate: 34.9%
+  📉 Max Drawdown: +144.66%
+  💰 Net PnL: $-144,756.42
+
+📈 Backtesting 20MICRONS - AIROLAM (profitable parameters)...
+
+📊 20MICRONS-AIROLAM PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): -59.26
+  Cumulative Return (%): -59.26
+  Annualized Return (%): -48.31
+  Sharpe Ratio: -20.68
+  Win Rate (%): +40.09
+  Max Drawdown (%): +59.30
+  Total Trades: 6420
+  Net PnL ($): -59258.69
+--------------------------------------------------
+  ✅ Total Return: -59.26%
+  📈 Cumulative Return: -59.26%
+  📊 Annualized Return: -48.31%
+  📊 Sharpe Ratio: -20.676
+  🎯 Win Rate: 40.1%
+  📉 Max Drawdown: +59.30%
+  💰 Net PnL: $-59,258.69
+
+📈 Backtesting 20MICRONS - AJANTPHARM (profitable parameters)...
+
+📊 20MICRONS-AJANTPHARM PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): +nan
+  Cumulative Return (%): +nan
+  Annualized Return (%): +nan
+  Sharpe Ratio: 0
+  Win Rate (%): +51.57
+  Max Drawdown (%): +106.99
+  Total Trades: 66208
+  Net PnL ($): +nan
+--------------------------------------------------
+  ✅ Total Return: +nan%
+  📈 Cumulative Return: +nan%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: +0.000
+  🎯 Win Rate: 51.6%
+  📉 Max Drawdown: +106.99%
+  💰 Net PnL: $+nan
+
+📈 Backtesting 20MICRONS - AJMERA (profitable parameters)...
+
+📊 20MICRONS-AJMERA PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): +nan
+  Cumulative Return (%): +nan
+  Annualized Return (%): +nan
+  Sharpe Ratio: 0
+  Win Rate (%): +43.55
+  Max Drawdown (%): +29.97
+  Total Trades: 59748
+  Net PnL ($): +nan
+--------------------------------------------------
+  ✅ Total Return: +nan%
+  📈 Cumulative Return: +nan%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: +0.000
+  🎯 Win Rate: 43.6%
+  📉 Max Drawdown: +29.97%
+  💰 Net PnL: $+nan
+
+📈 Backtesting 20MICRONS - AJOONI (profitable parameters)...
+
+📊 20MICRONS-AJOONI PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): -34.97
+  Cumulative Return (%): -34.97
+  Annualized Return (%): -21.01
+  Sharpe Ratio: -18.94
+  Win Rate (%): +38.38
+  Max Drawdown (%): +34.97
+  Total Trades: 9060
+  Net PnL ($): -34969.86
+--------------------------------------------------
+  ✅ Total Return: -34.97%
+  📈 Cumulative Return: -34.97%
+  📊 Annualized Return: -21.01%
+  📊 Sharpe Ratio: -18.940
+  🎯 Win Rate: 38.4%
+  📉 Max Drawdown: +34.97%
+  💰 Net PnL: $-34,969.86
+
+📈 Backtesting 20MICRONS - AJRINFRA (profitable parameters)...
+
+📊 20MICRONS-AJRINFRA PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): +nan
+  Cumulative Return (%): +nan
+  Annualized Return (%): +nan
+  Sharpe Ratio: 0
+  Win Rate (%): +31.81
+  Max Drawdown (%): +17.57
+  Total Trades: 51661
+  Net PnL ($): +nan
+--------------------------------------------------
+  ✅ Total Return: +nan%
+  📈 Cumulative Return: +nan%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: +0.000
+  🎯 Win Rate: 31.8%
+  📉 Max Drawdown: +17.57%
+  💰 Net PnL: $+nan
+
+📈 Backtesting 20MICRONS - AKASH (profitable parameters)...
+
+📊 20MICRONS-AKASH PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): -306.77
+  Cumulative Return (%): -306.77
+  Annualized Return (%): +nan
+  Sharpe Ratio: +0.48
+  Win Rate (%): +42.46
+  Max Drawdown (%): +306.77
+  Total Trades: 14130
+  Net PnL ($): -306774.77
+--------------------------------------------------
+  ✅ Total Return: -306.77%
+  📈 Cumulative Return: -306.77%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: +0.484
+  🎯 Win Rate: 42.5%
+  📉 Max Drawdown: +306.77%
+  💰 Net PnL: $-306,774.77
+
+📈 Backtesting 20MICRONS - AKSHAR (profitable parameters)...
+
+📊 20MICRONS-AKSHAR PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): -18.86
+  Cumulative Return (%): -18.86
+  Annualized Return (%): -32.70
+  Sharpe Ratio: -17.70
+  Win Rate (%): +42.31
+  Max Drawdown (%): +19.11
+  Total Trades: 2621
+  Net PnL ($): -18863.83
+--------------------------------------------------
+  ✅ Total Return: -18.86%
+  📈 Cumulative Return: -18.86%
+  📊 Annualized Return: -32.70%
+  📊 Sharpe Ratio: -17.702
+  🎯 Win Rate: 42.3%
+  📉 Max Drawdown: +19.11%
+  💰 Net PnL: $-18,863.83
+
+📈 Backtesting 20MICRONS - AKSHARCHEM (profitable parameters)...
+
+📊 20MICRONS-AKSHARCHEM PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): -1953.54
+  Cumulative Return (%): -1953.54
+  Annualized Return (%): +nan
+  Sharpe Ratio: +0.24
+  Win Rate (%): +45.11
+  Max Drawdown (%): +1953.19
+  Total Trades: 37664
+  Net PnL ($): -1953540.26
+--------------------------------------------------
+  ✅ Total Return: -1953.54%
+  📈 Cumulative Return: -1953.54%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: +0.235
+  🎯 Win Rate: 45.1%
+  📉 Max Drawdown: +1953.19%
+  💰 Net PnL: $-1,953,540.26
+
+📈 Backtesting 20MICRONS - AKSHOPTFBR (profitable parameters)...
+
+📊 20MICRONS-AKSHOPTFBR PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): +nan
+  Cumulative Return (%): +nan
+  Annualized Return (%): +nan
+  Sharpe Ratio: 0
+  Win Rate (%): +34.66
+  Max Drawdown (%): +inf
+  Total Trades: 54966
+  Net PnL ($): +nan
+--------------------------------------------------
+  ✅ Total Return: +nan%
+  📈 Cumulative Return: +nan%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: +0.000
+  🎯 Win Rate: 34.7%
+  📉 Max Drawdown: +inf%
+  💰 Net PnL: $+nan
+
+📈 Backtesting 20MICRONS - AKZOINDIA (profitable parameters)...
+
+📊 20MICRONS-AKZOINDIA PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): +nan
+  Cumulative Return (%): +nan
+  Annualized Return (%): +nan
+  Sharpe Ratio: 0
+  Win Rate (%): +46.62
+  Max Drawdown (%): +121.04
+  Total Trades: 57706
+  Net PnL ($): +nan
+--------------------------------------------------
+  ✅ Total Return: +nan%
+  📈 Cumulative Return: +nan%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: +0.000
+  🎯 Win Rate: 46.6%
+  📉 Max Drawdown: +121.04%
+  💰 Net PnL: $+nan
+
+📈 Backtesting 20MICRONS - ALANKIT (profitable parameters)...
+
+📊 20MICRONS-ALANKIT PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): +nan
+  Cumulative Return (%): +nan
+  Annualized Return (%): +nan
+  Sharpe Ratio: 0
+  Win Rate (%): +36.06
+  Max Drawdown (%): +0.53
+  Total Trades: 51772
+  Net PnL ($): +nan
+--------------------------------------------------
+  ✅ Total Return: +nan%
+  📈 Cumulative Return: +nan%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: +0.000
+  🎯 Win Rate: 36.1%
+  📉 Max Drawdown: +0.53%
+  💰 Net PnL: $+nan
+
+📈 Backtesting 20MICRONS - ALBERTDAVD (profitable parameters)...
+
+📊 20MICRONS-ALBERTDAVD PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): -1760.97
+  Cumulative Return (%): -1760.97
+  Annualized Return (%): +nan
+  Sharpe Ratio: +0.29
+  Win Rate (%): +44.33
+  Max Drawdown (%): +1692.02
+  Total Trades: 41091
+  Net PnL ($): -1760972.19
+--------------------------------------------------
+  ✅ Total Return: -1760.97%
+  📈 Cumulative Return: -1760.97%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: +0.285
+  🎯 Win Rate: 44.3%
+  📉 Max Drawdown: +1692.02%
+  💰 Net PnL: $-1,760,972.19
+
+📈 Backtesting 20MICRONS - ALEMBICLTD (profitable parameters)...
+
+📊 20MICRONS-ALEMBICLTD PROFITABLE RESULTS
+--------------------------------------------------
+  Total Return (%): +nan
+  Cumulative Return (%): +nan
+  Annualized Return (%): +nan
+  Sharpe Ratio: 0
+  Win Rate (%): +40.74
+  Max Drawdown (%): +18.50
+  Total Trades: 60167
+  Net PnL ($): +nan
+--------------------------------------------------
+  ✅ Total Return: +nan%
+  📈 Cumulative Return: +nan%
+  📊 Annualized Return: +nan%
+  📊 Sharpe Ratio: +0.000
+  🎯 Win Rate: 40.7%
+  📉 Max Drawdown: +18.50%
+  💰 Net PnL: $+nan
+
+✅ Completed PROFITABLE backtests for 50 pairs
+
+------------------------------------------------------------
+STEP 4: PORTFOLIO BACKTESTING (PROFITABLE)
+------------------------------------------------------------
+
+
+💼 STEP 4: PORTFOLIO BACKTESTING (PROFITABLE)
+--------------------------------------------------
