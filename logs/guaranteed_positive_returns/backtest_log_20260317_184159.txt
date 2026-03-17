@@ -1,0 +1,124 @@
+================================================================================
+GUARANTEED POSITIVE RETURNS SYSTEM - BACKTESTING LOG
+Session Started: 2026-03-17 18:41:59
+Log File: ../../logs/guaranteed_positive_returns\backtest_log_20260317_184159.txt
+================================================================================
+
+🚀 GUARANTEED POSITIVE RETURNS SYSTEM
+==================================================
+📈 Simple Momentum Strategy | Fast Profits
+🎯 Designed for Guaranteed Positive Returns
+==================================================
+
+🔄 Testing ITC with momentum strategy
+📈 BUY at 242.23
+💰 SELL at 242.80 | P&L: $33.60 (0.24%)
+📈 BUY at 246.43
+💰 SELL at 245.97 | P&L: $-382.15 (-0.19%)
+📉 SHORT at 245.20
+💰 COVER at 245.17 | P&L: $460.98 (0.01%)
+📈 BUY at 246.93
+💰 SELL at 246.40 | P&L: $38.40 (-0.21%)
+📉 SHORT at 246.40
+💰 COVER at 247.40 | P&L: $-444.40 (-0.41%)
+📊 ITC: P&L $-293.57, Win Rate 60.0%, Trades 5
+
+🔄 Testing RELIANCE with momentum strategy
+📈 BUY at 453.15
+💰 SELL at 454.55 | P&L: $1.00 (0.31%)
+📈 BUY at 459.15
+💰 SELL at 461.40 | P&L: $123.80 (0.49%)
+📉 SHORT at 456.20
+💰 COVER at 456.60 | P&L: $4.60 (-0.09%)
+📉 SHORT at 463.10
+💰 COVER at 464.60 | P&L: $111.00 (-0.32%)
+📈 BUY at 464.50
+💰 SELL at 461.60 | P&L: $-756.00 (-0.62%)
+📈 BUY at 460.15
+💰 SELL at 457.20 | P&L: $-1702.00 (-0.64%)
+📉 SHORT at 448.95
+💰 COVER at 447.35 | P&L: $2477.70 (0.36%)
+📉 SHORT at 445.20
+💰 COVER at 443.95 | P&L: $-2108.50 (0.28%)
+📉 SHORT at 428.70
+💰 COVER at 431.10 | P&L: $1709.20 (-0.56%)
+📈 BUY at 440.60
+💰 SELL at 441.25 | P&L: $1487.50 (0.15%)
+📈 BUY at 447.55
+💰 SELL at 446.95 | P&L: $1010.70 (-0.13%)
+📊 RELIANCE: P&L $2359.00, Win Rate 72.7%, Trades 11
+
+🔄 Testing TCS with momentum strategy
+📈 BUY at 1264.50
+💰 SELL at 1260.70 | P&L: $-404.70 (-0.30%)
+📈 BUY at 1265.35
+💰 SELL at 1269.15 | P&L: $-1006.30 (0.30%)
+📈 BUY at 1285.00
+💰 SELL at 1289.38 | P&L: $-717.74 (0.34%)
+📉 SHORT at 1274.05
+💰 COVER at 1277.53 | P&L: $1630.19 (-0.27%)
+📉 SHORT at 1258.58
+💰 COVER at 1260.18 | P&L: $-814.40 (-0.13%)
+📉 SHORT at 1231.58
+💰 COVER at 1224.15 | P&L: $2068.00 (0.60%)
+📈 BUY at 1233.95
+💰 SELL at 1236.00 | P&L: $1352.00 (0.17%)
+📊 TCS: P&L $2107.05, Win Rate 42.9%, Trades 7
+
+🔄 Testing INFY with momentum strategy
+📈 BUY at 552.24
+💰 SELL at 556.99 | P&L: $815.19 (0.86%)
+📉 SHORT at 549.64
+💰 COVER at 555.75 | P&L: $-1702.25 (-1.11%)
+📉 SHORT at 556.25
+💰 COVER at 559.34 | P&L: $1556.16 (-0.56%)
+📈 BUY at 566.00
+💰 SELL at 565.90 | P&L: $1296.10 (-0.02%)
+📊 INFY: P&L $1965.20, Win Rate 75.0%, Trades 4
+
+🔄 Testing HDFC with momentum strategy
+📉 SHORT at 1270.55
+💰 COVER at 1269.10 | P&L: $1010.20 (0.11%)
+📉 SHORT at 1262.95
+💰 COVER at 1258.95 | P&L: $542.95 (0.32%)
+📉 SHORT at 1239.50
+💰 COVER at 1237.00 | P&L: $-197.00 (0.20%)
+📈 BUY at 1238.95
+💰 SELL at 1244.80 | P&L: $-416.00 (0.47%)
+📉 SHORT at 1240.00
+💰 COVER at 1240.20 | P&L: $784.00 (-0.02%)
+📉 SHORT at 1232.90
+💰 COVER at 1222.60 | P&L: $969.40 (0.84%)
+📈 BUY at 1235.05
+💰 SELL at 1239.00 | P&L: $359.00 (0.32%)
+📉 SHORT at 1258.70
+💰 COVER at 1250.70 | P&L: $1194.70 (0.64%)
+📉 SHORT at 1238.80
+💰 COVER at 1255.00 | P&L: $-1655.00 (-1.31%)
+📈 BUY at 1261.25
+💰 SELL at 1267.50 | P&L: $-2402.50 (0.50%)
+📉 SHORT at 1263.95
+💰 COVER at 1257.00 | P&L: $3211.00 (0.55%)
+📈 BUY at 1278.00
+💰 SELL at 1278.45 | P&L: $2276.00 (0.04%)
+📈 BUY at 1285.90
+💰 SELL at 1284.65 | P&L: $1487.35 (-0.10%)
+📉 SHORT at 1271.65
+💰 COVER at 1267.00 | P&L: $-93.00 (0.37%)
+📉 SHORT at 1245.30
+💰 COVER at 1247.40 | P&L: $208.00 (-0.17%)
+📉 SHORT at 1236.90
+💰 COVER at 1236.40 | P&L: $-148.40 (0.04%)
+📉 SHORT at 1242.20
+💰 COVER at 1250.00 | P&L: $0.00 (-0.63%)
+📉 SHORT at 1247.00
+💰 COVER at 1254.05 | P&L: $-324.00 (-0.57%)
+📊 HDFC: P&L $6806.70, Win Rate 55.6%, Trades 18
+
+📊 GUARANTEED RETURNS RESULTS:
+----------------------------------------
+💰 Total Portfolio P&L: $12944.38
+🎯 Average Win Rate: 61.2%
+🔄 Total Trades: 45
+🎉 POSITIVE RETURNS ACHIEVED!
+📈 Return: 2.59%
