@@ -1,0 +1,149 @@
+================================================================================
+BALANCED PROFITABLE RETURNS SYSTEM
+Session Started: 2026-03-25 19:30:42
+Log File: ../../logs/guaranteed_positive_returns\balanced_profit_log_20260325_193042.txt
+================================================================================
+
+🚀 BALANCED PROFITABLE RETURNS SYSTEM
+======================================================================
+📈 Balanced Signals | Realistic Profits | Trade Frequency
+🎯 Optimized for Consistent Profits
+======================================================================
+💰 Total Portfolio Capital: $1,000,000.00
+📊 Per Stock Allocation (20%): $200,000.00
+🎯 Maximum Stocks: 5
+======================================================================
+
+🔄 Testing ITC with BALANCED PROFITABLE strategy
+💰 Allocated Capital for ITC: $200,000.00
+📊 BALANCED PARAMETERS:
+   Entry Threshold: 0.6%
+   Profit Target: 0.8%
+   Stop Loss: 1.2%
+   Max Hold: 8 bars
+   Total Costs: 0.022%
+📉 SHORT at 242.23 | Overbought | RSI: 71.0 | Change: 0.69%
+💰 COVER at 242.53 | Net P&L: $-291.46 (-0.12%) | TIME LIMIT
+   💸 Gross P&L: $-247.50 | Costs: $43.96
+📉 SHORT at 246.43 | Overbought | RSI: 73.2 | Change: 1.09%
+💰 COVER at 245.27 | Net P&L: $896.79 (0.47%) | TIME LIMIT
+   💸 Gross P&L: $940.76 | Costs: $43.97
+📈 BUY at 245.20 | Oversold | RSI: 25.5 | Change: -0.62%
+💰 SELL at 246.93 | Net P&L: $1365.99 (0.71%) | TIME LIMIT
+   💸 Gross P&L: $1409.95 | Costs: $43.96
+📊 ITC: Net P&L $1971.31, Win Rate 66.7%, Trades 3
+   💸 Gross P&L: $2103.21 | Costs: $131.90
+   💰 Avg Profit/Trade: $657.10 | Profit Factor: 7.76
+   🛡️ Stop Loss: 0, Profit: 0, Time: 3
+
+🔄 Testing RELIANCE with BALANCED PROFITABLE strategy
+💰 Allocated Capital for RELIANCE: $200,000.00
+📊 BALANCED PARAMETERS:
+   Entry Threshold: 0.6%
+   Profit Target: 0.8%
+   Stop Loss: 1.2%
+   Max Hold: 8 bars
+   Total Costs: 0.022%
+📉 SHORT at 453.15 | Overbought | RSI: 65.9 | Change: 0.73%
+💰 COVER at 459.15 | Net P&L: $-2689.96 (-1.32%) | STOP LOSS
+   💸 Gross P&L: $-2646.00 | Costs: $43.96
+📈 BUY at 428.70 | Oversold | RSI: 12.3 | Change: -0.86%
+💰 SELL at 432.95 | Net P&L: $1936.55 (0.99%) | PROFIT
+   💸 Gross P&L: $1980.50 | Costs: $43.95
+📊 RELIANCE: Net P&L $-753.41, Win Rate 50.0%, Trades 2
+   💸 Gross P&L: $-665.50 | Costs: $87.91
+   💰 Avg Profit/Trade: $-376.71 | Profit Factor: 0.72
+   🛡️ Stop Loss: 1, Profit: 1, Time: 0
+
+🔄 Testing TCS with BALANCED PROFITABLE strategy
+💰 Allocated Capital for TCS: $200,000.00
+📊 BALANCED PARAMETERS:
+   Entry Threshold: 0.6%
+   Profit Target: 0.8%
+   Stop Loss: 1.2%
+   Max Hold: 8 bars
+   Total Costs: 0.022%
+📉 SHORT at 1265.35 | Overbought | RSI: 75.3 | Change: 0.63%
+💰 COVER at 1270.70 | Net P&L: $-889.28 (-0.42%) | TIME LIMIT
+   💸 Gross P&L: $-845.30 | Costs: $43.98
+📈 BUY at 1274.05 | Oversold | RSI: 24.2 | Change: -1.12%
+💰 SELL at 1278.55 | Net P&L: $658.27 (0.35%) | TIME LIMIT
+   💸 Gross P&L: $702.00 | Costs: $43.73
+📈 BUY at 1224.15 | Oversold | RSI: 12.7 | Change: -0.60%
+💰 SELL at 1222.50 | Net P&L: $-312.85 (-0.13%) | TIME LIMIT
+   💸 Gross P&L: $-268.95 | Costs: $43.90
+📊 TCS: Net P&L $-543.86, Win Rate 33.3%, Trades 3
+   💸 Gross P&L: $-412.25 | Costs: $131.61
+   💰 Avg Profit/Trade: $-181.29 | Profit Factor: 0.55
+   🛡️ Stop Loss: 0, Profit: 0, Time: 3
+
+🔄 Testing INFY with BALANCED PROFITABLE strategy
+💰 Allocated Capital for INFY: $200,000.00
+📊 BALANCED PARAMETERS:
+   Entry Threshold: 0.6%
+   Profit Target: 0.8%
+   Stop Loss: 1.2%
+   Max Hold: 8 bars
+   Total Costs: 0.022%
+📈 BUY at 549.64 | Oversold | RSI: 11.7 | Change: -1.40%
+💰 SELL at 554.33 | Net P&L: $1658.58 (0.85%) | PROFIT
+   💸 Gross P&L: $1702.47 | Costs: $43.89
+📉 SHORT at 566.00 | Overbought | RSI: 74.4 | Change: 0.85%
+💰 COVER at 567.42 | Net P&L: $-545.22 (-0.25%) | TIME LIMIT
+   💸 Gross P&L: $-501.26 | Costs: $43.96
+📊 INFY: Net P&L $1113.36, Win Rate 50.0%, Trades 2
+   💸 Gross P&L: $1201.21 | Costs: $87.85
+   💰 Avg Profit/Trade: $556.68 | Profit Factor: 3.04
+   🛡️ Stop Loss: 0, Profit: 1, Time: 1
+
+🔄 Testing HDFC with BALANCED PROFITABLE strategy
+💰 Allocated Capital for HDFC: $200,000.00
+📊 BALANCED PARAMETERS:
+   Entry Threshold: 0.6%
+   Profit Target: 0.8%
+   Stop Loss: 1.2%
+   Max Hold: 8 bars
+   Total Costs: 0.022%
+📈 BUY at 1239.50 | Oversold | RSI: 33.6 | Change: -0.69%
+💰 SELL at 1234.40 | Net P&L: $-865.00 (-0.41%) | TIME LIMIT
+   💸 Gross P&L: $-821.10 | Costs: $43.90
+📈 BUY at 1222.60 | Oversold | RSI: 5.7 | Change: -0.62%
+💰 SELL at 1235.05 | Net P&L: $1985.51 (1.02%) | PROFIT
+   💸 Gross P&L: $2029.35 | Costs: $43.84
+📈 BUY at 1263.95 | Oversold | RSI: 26.8 | Change: -1.48%
+💰 SELL at 1256.65 | Net P&L: $-1197.33 (-0.58%) | TIME LIMIT
+   💸 Gross P&L: $-1153.40 | Costs: $43.93
+📈 BUY at 1245.30 | Oversold | RSI: 7.2 | Change: -0.62%
+💰 SELL at 1247.95 | Net P&L: $380.17 (0.21%) | TIME LIMIT
+   💸 Gross P&L: $424.00 | Costs: $43.83
+📊 HDFC: Net P&L $303.34, Win Rate 50.0%, Trades 4
+   💸 Gross P&L: $478.85 | Costs: $175.51
+   💰 Avg Profit/Trade: $75.83 | Profit Factor: 1.15
+   🛡️ Stop Loss: 0, Profit: 1, Time: 3
+
+📊 BALANCED PROFITABLE RESULTS:
+------------------------------------------------------------
+💰 Total Portfolio Net P&L: $2090.74
+💸 Total Portfolio Gross P&L: $2705.52
+💸 Total Portfolio Costs: $614.78
+💼 Total Allocated Capital: $1,000,000.00
+💵 Remaining Capital: $0.00
+🎯 Average Win Rate: 50.0%
+🔄 Total Trades: 14
+💰 Avg Profit per Trade: $149.34
+📈 Portfolio Profit Factor: 1.31
+📈 Portfolio Return: 0.21%
+💸 Cost Impact: 22.72% of gross P&L
+
+🛡️ EXIT ANALYSIS:
+   Total Stop Loss Exits: 1
+   Total Profit Exits: 3
+   Total Time Limit Exits: 10
+   Stop Loss Rate: 7.1%
+   Profit Exit Rate: 21.4%
+   Time Exit Rate: 71.4%
+
+🎉 PROFITABLE STRATEGY ACHIEVED!
+📈 Net Return: 0.21%
+💰 Total Profit: $2090.74
+✅ Strategy Optimization Successful!
