@@ -1,0 +1,83 @@
+================================================================================
+CUSTOMIZED STOCK SIGNALS STRATEGY
+Session Started: 2026-03-29 21:57:46
+Total Capital: $10,000,000.00 (10M)
+Log File: ../../logs/guaranteed_positive_returns\customized_signals_10M_20260329_215746.txt
+================================================================================
+
+🚀 CUSTOMIZED STOCK SIGNALS STRATEGY - 10M
+================================================================================
+📈 Stock-Specific Signal Rules | Optimized Parameters
+🎯 Different Entry Rules Per Stock
+================================================================================
+💰 Total Portfolio Capital: $10,000,000.00 (10M)
+📊 Per Stock Allocation (20%): $2,000,000.00
+🎯 Maximum Stocks: 5
+
+📋 STOCK-SPECIFIC RULES:
+   ITC: all_signals
+   INFY: only_oversold
+   HDFC: only_deep_oversold
+================================================================================
+
+🔄 Testing ITC with all_signals rule
+💰 Allocated Capital for ITC: $2,000,000.00
+📊 SIGNAL RULE: all_signals
+📊 PARAMETERS: Entry 0.6% | Target 0.8% | Stop 1.2% | Hold 8 bars
+📈 SHORT at 242.23 | Overbought | RSI: 71.0 | Change: 0.69%
+💰 COVER at 242.53 | Net P&L: $-2916.77 (-0.12%) | TIME LIMIT
+📈 SHORT at 246.43 | Overbought | RSI: 73.2 | Change: 1.09%
+💰 COVER at 245.27 | Net P&L: $8973.45 (0.47%) | TIME LIMIT
+📈 BUY at 245.20 | Oversold | RSI: 25.5 | Change: -0.62%
+💰 SELL at 246.93 | Net P&L: $13669.91 (0.71%) | TIME LIMIT
+📊 ITC (all_signals): Net P&L $19726.59, Win Rate 66.7%, Trades 3
+   💸 Gross P&L: $21046.48 | Costs: $1319.89
+   🛡️ Stop Loss: 0, Profit: 0, Time: 3
+
+🔄 Testing INFY with only_oversold rule
+💰 Allocated Capital for INFY: $2,000,000.00
+📊 SIGNAL RULE: only_oversold
+📊 PARAMETERS: Entry 0.6% | Target 0.8% | Stop 1.2% | Hold 8 bars
+📈 BUY at 549.64 | Oversold Only | RSI: 11.7 | Change: -1.40%
+💰 SELL at 554.33 | Net P&L: $16622.31 (0.85%) | PROFIT
+📊 INFY (only_oversold): Net P&L $16622.31, Win Rate 100.0%, Trades 1
+   💸 Gross P&L: $17062.22 | Costs: $439.91
+   🛡️ Stop Loss: 0, Profit: 1, Time: 0
+
+🔄 Testing HDFC with only_deep_oversold rule
+💰 Allocated Capital for HDFC: $2,000,000.00
+📊 SIGNAL RULE: only_deep_oversold
+📊 PARAMETERS: Entry 0.6% | Target 0.8% | Stop 1.2% | Hold 8 bars
+📈 BUY at 1222.60 | Deep Oversold | RSI: 5.7 | Change: -0.62%
+💰 SELL at 1235.05 | Net P&L: $19915.98 (1.02%) | PROFIT
+📈 BUY at 1245.30 | Deep Oversold | RSI: 7.2 | Change: -0.62%
+💰 SELL at 1247.95 | Net P&L: $3815.91 (0.21%) | TIME LIMIT
+📊 HDFC (only_deep_oversold): Net P&L $23731.89, Win Rate 100.0%, Trades 2
+   💸 Gross P&L: $24611.65 | Costs: $879.76
+   🛡️ Stop Loss: 0, Profit: 1, Time: 1
+
+📊 CUSTOMIZED STRATEGY RESULTS - 10M:
+------------------------------------------------------------
+💰 Total Portfolio Net P&L: $60080.80
+💸 Total Portfolio Gross P&L: $62720.35
+💸 Total Portfolio Costs: $2639.55
+💼 Total Allocated Capital: $6,000,000.00
+💵 Remaining Capital: $4,000,000.00
+🎯 Average Win Rate: 88.9%
+🔄 Total Trades: 6
+💰 Avg Profit per Trade: $10013.47
+📈 Portfolio Return: 1.00%
+💸 Cost Impact: 4.21% of gross P&L
+
+🛡️ EXIT ANALYSIS:
+   Total Stop Loss Exits: 0
+   Total Profit Exits: 2
+   Total Time Limit Exits: 4
+   Stop Loss Rate: 0.0%
+   Profit Exit Rate: 33.3%
+   Time Exit Rate: 66.7%
+
+🎉 PROFITABLE STRATEGY ACHIEVED!
+📈 Net Return: 1.00%
+💰 Total Profit: $60080.80
+✅ Customized Strategy Successful!
