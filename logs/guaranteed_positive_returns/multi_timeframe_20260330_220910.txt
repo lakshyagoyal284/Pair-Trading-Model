@@ -1,0 +1,330 @@
+================================================================================
+MULTI-TIMEFRAME STRATEGY TEST
+Session Started: 2026-03-30 22:09:10
+Total Capital: $10,000,000.00
+Log File: ../../logs/guaranteed_positive_returns\multi_timeframe_20260330_220910.txt
+================================================================================
+
+🚀 MULTI-TIMEFRAME STRATEGY TEST
+================================================================================
+📈 Testing Across Different Timeframes
+🎯 Stock-Specific Signal Rules
+================================================================================
+💰 Total Portfolio Capital: $10,000,000.00
+📊 Per Stock Allocation (20%): $2,000,000.00
+🎯 Maximum Stocks: 5
+
+📋 TIMEFRAMES TO TEST:
+   1minute
+   3minute
+   5minute
+   15minute
+
+📋 STOCK-SPECIFIC RULES:
+   ITC: all_signals
+   INFY: only_oversold
+   HDFC: only_deep_oversold
+================================================================================
+
+============================================================
+🕒 TESTING TIMEFRAME: 1MINUTE
+============================================================
+
+🔄 Testing ITC with all_signals rule on 1minute
+❌ ITC 1minute: File not found
+
+🔄 Testing INFY with only_oversold rule on 1minute
+❌ INFY 1minute: File not found
+
+🔄 Testing HDFC with only_deep_oversold rule on 1minute
+❌ HDFC 1minute: File not found
+
+============================================================
+🕒 TESTING TIMEFRAME: 3MINUTE
+============================================================
+
+🔄 Testing ITC with all_signals rule on 3minute
+💰 Allocated Capital for ITC: $2,000,000.00
+📊 Data Points: 237093 bars
+📊 SIGNAL RULE: all_signals
+📊 PARAMETERS: Entry 0.6% | Target 0.8% | Stop 1.2% | Hold 8 bars
+📈 SHORT at 242.23 | Overbought | RSI: 71.0 | Change: 0.69%
+💰 COVER at 242.53 | Net P&L: $-2916.77 (-0.12%) | TIME LIMIT
+📈 SHORT at 246.43 | Overbought | RSI: 73.2 | Change: 1.09%
+💰 COVER at 245.27 | Net P&L: $8973.45 (0.47%) | TIME LIMIT
+📈 BUY at 245.20 | Oversold | RSI: 25.5 | Change: -0.62%
+💰 SELL at 246.93 | Net P&L: $13669.91 (0.71%) | TIME LIMIT
+📊 ITC (all_signals, 3minute): Net P&L $19726.59, Win Rate 66.7%, Trades 3
+   💸 Gross P&L: $21046.48 | Costs: $1319.89
+   🛡️ Stop Loss: 0, Profit: 0, Time: 3
+
+🔄 Testing INFY with only_oversold rule on 3minute
+💰 Allocated Capital for INFY: $2,000,000.00
+📊 Data Points: 237094 bars
+📊 SIGNAL RULE: only_oversold
+📊 PARAMETERS: Entry 0.6% | Target 0.8% | Stop 1.2% | Hold 8 bars
+📈 BUY at 549.64 | Oversold Only | RSI: 11.7 | Change: -1.40%
+💰 SELL at 554.33 | Net P&L: $16622.31 (0.85%) | PROFIT
+📊 INFY (only_oversold, 3minute): Net P&L $16622.31, Win Rate 100.0%, Trades 1
+   💸 Gross P&L: $17062.22 | Costs: $439.91
+   🛡️ Stop Loss: 0, Profit: 1, Time: 0
+
+🔄 Testing HDFC with only_deep_oversold rule on 3minute
+💰 Allocated Capital for HDFC: $2,000,000.00
+📊 Data Points: 236987 bars
+📊 SIGNAL RULE: only_deep_oversold
+📊 PARAMETERS: Entry 0.6% | Target 0.8% | Stop 1.2% | Hold 8 bars
+📈 BUY at 1222.60 | Deep Oversold | RSI: 5.7 | Change: -0.62%
+💰 SELL at 1235.05 | Net P&L: $19915.98 (1.02%) | PROFIT
+📈 BUY at 1245.30 | Deep Oversold | RSI: 7.2 | Change: -0.62%
+💰 SELL at 1247.95 | Net P&L: $3815.91 (0.21%) | TIME LIMIT
+📊 HDFC (only_deep_oversold, 3minute): Net P&L $23731.89, Win Rate 100.0%, Trades 2
+   💸 Gross P&L: $24611.65 | Costs: $879.76
+   🛡️ Stop Loss: 0, Profit: 1, Time: 1
+
+📊 3MINUTE RESULTS:
+--------------------------------------------------
+💰 Total Portfolio Net P&L: $60080.80
+💸 Total Portfolio Gross P&L: $62720.35
+💸 Total Portfolio Costs: $2639.55
+💼 Total Allocated Capital: $6,000,000.00
+🎯 Average Win Rate: 88.9%
+🔄 Total Trades: 6
+💰 Avg Profit per Trade: $10013.47
+📈 Portfolio Return: 1.00%
+💸 Cost Impact: 4.21% of gross P&L
+
+🛡️ EXIT ANALYSIS:
+   Total Stop Loss Exits: 0
+   Total Profit Exits: 2
+   Total Time Limit Exits: 4
+   Stop Loss Rate: 0.0%
+   Profit Exit Rate: 33.3%
+   Time Exit Rate: 66.7%
+
+🎉 PROFITABLE TIMEFRAME!
+📈 Net Return: 1.00%
+💰 Total Profit: $60080.80
+
+============================================================
+🕒 TESTING TIMEFRAME: 5MINUTE
+============================================================
+
+🔄 Testing ITC with all_signals rule on 5minute
+💰 Allocated Capital for ITC: $2,000,000.00
+📊 Data Points: 130860 bars
+📊 SIGNAL RULE: all_signals
+📊 PARAMETERS: Entry 0.6% | Target 0.8% | Stop 1.2% | Hold 8 bars
+📈 SHORT at 245.83 | Overbought | RSI: 73.3 | Change: 0.85%
+💰 COVER at 245.67 | Net P&L: $861.64 (0.07%) | TIME LIMIT
+📈 BUY at 243.73 | Oversold | RSI: 28.0 | Change: -0.72%
+💰 SELL at 245.80 | Net P&L: $16544.39 (0.85%) | PROFIT
+📈 SHORT at 244.97 | Momentum Down | RSI: 45.2 | Change: -0.62%
+💰 COVER at 246.67 | Net P&L: $-14318.79 (-0.69%) | TIME LIMIT
+📈 SHORT at 264.87 | Overbought | RSI: 86.6 | Change: 1.94%
+💰 COVER at 264.57 | Net P&L: $1825.05 (0.11%) | TIME LIMIT
+📈 BUY at 258.67 | Oversold | RSI: 15.1 | Change: -0.79%
+💰 SELL at 259.60 | Net P&L: $6749.88 (0.36%) | TIME LIMIT
+📊 ITC (all_signals, 5minute): Net P&L $11662.18, Win Rate 80.0%, Trades 5
+   💸 Gross P&L: $13861.98 | Costs: $2199.80
+   🛡️ Stop Loss: 0, Profit: 1, Time: 4
+
+🔄 Testing INFY with only_oversold rule on 5minute
+💰 Allocated Capital for INFY: $2,000,000.00
+📊 Data Points: 130861 bars
+📊 SIGNAL RULE: only_oversold
+📊 PARAMETERS: Entry 0.6% | Target 0.8% | Stop 1.2% | Hold 8 bars
+📈 BUY at 552.29 | Oversold Only | RSI: 21.1 | Change: -1.08%
+💰 SELL at 555.72 | Net P&L: $11980.06 (0.62%) | TIME LIMIT
+📊 INFY (only_oversold, 5minute): Net P&L $11980.06, Win Rate 100.0%, Trades 1
+   💸 Gross P&L: $12420.03 | Costs: $439.97
+   🛡️ Stop Loss: 0, Profit: 0, Time: 1
+
+🔄 Testing HDFC with only_deep_oversold rule on 5minute
+💰 Allocated Capital for HDFC: $2,000,000.00
+📊 Data Points: 130860 bars
+📊 SIGNAL RULE: only_deep_oversold
+📊 PARAMETERS: Entry 0.6% | Target 0.8% | Stop 1.2% | Hold 8 bars
+📈 BUY at 1245.30 | Deep Oversold | RSI: 17.3 | Change: -0.60%
+💰 SELL at 1237.05 | Net P&L: $-13689.49 (-0.66%) | TIME LIMIT
+📊 HDFC (only_deep_oversold, 5minute): Net P&L $-13689.49, Win Rate 0.0%, Trades 1
+   💸 Gross P&L: $-13249.50 | Costs: $439.99
+   🛡️ Stop Loss: 0, Profit: 0, Time: 1
+
+📊 5MINUTE RESULTS:
+--------------------------------------------------
+💰 Total Portfolio Net P&L: $9952.75
+💸 Total Portfolio Gross P&L: $13032.51
+💸 Total Portfolio Costs: $3079.76
+💼 Total Allocated Capital: $6,000,000.00
+🎯 Average Win Rate: 60.0%
+🔄 Total Trades: 7
+💰 Avg Profit per Trade: $1421.82
+📈 Portfolio Return: 0.17%
+💸 Cost Impact: 23.63% of gross P&L
+
+🛡️ EXIT ANALYSIS:
+   Total Stop Loss Exits: 0
+   Total Profit Exits: 1
+   Total Time Limit Exits: 6
+   Stop Loss Rate: 0.0%
+   Profit Exit Rate: 14.3%
+   Time Exit Rate: 85.7%
+
+🎉 PROFITABLE TIMEFRAME!
+📈 Net Return: 0.17%
+💰 Total Profit: $9952.75
+
+============================================================
+🕒 TESTING TIMEFRAME: 15MINUTE
+============================================================
+
+🔄 Testing ITC with all_signals rule on 15minute
+💰 Allocated Capital for ITC: $2,000,000.00
+📊 Data Points: 43575 bars
+📊 SIGNAL RULE: all_signals
+📊 PARAMETERS: Entry 0.6% | Target 0.8% | Stop 1.2% | Hold 8 bars
+📈 SHORT at 246.13 | Overbought | RSI: 75.0 | Change: 0.97%
+💰 COVER at 245.10 | Net P&L: $7928.79 (0.42%) | TIME LIMIT
+📈 BUY at 245.47 | Momentum Up | RSI: 49.2 | Change: 0.88%
+💰 SELL at 243.90 | Net P&L: $-13230.76 (-0.64%) | TIME LIMIT
+📈 SHORT at 254.13 | Overbought | RSI: 77.2 | Change: 0.85%
+💰 COVER at 256.67 | Net P&L: $-20427.20 (-1.00%) | TIME LIMIT
+📈 SHORT at 260.00 | Overbought | RSI: 97.5 | Change: 0.67%
+💰 COVER at 266.60 | Net P&L: $-51207.18 (-2.54%) | STOP LOSS
+📈 BUY at 258.67 | Oversold | RSI: 29.3 | Change: -1.08%
+💰 SELL at 257.13 | Net P&L: $-12345.69 (-0.60%) | TIME LIMIT
+📈 BUY at 259.70 | Momentum Up | RSI: 58.4 | Change: 0.76%
+💰 SELL at 262.87 | Net P&L: $23972.18 (1.22%) | PROFIT
+📈 SHORT at 265.13 | Overbought | RSI: 66.2 | Change: 0.84%
+💰 COVER at 264.27 | Net P&L: $6047.01 (0.32%) | TIME LIMIT
+📈 BUY at 260.50 | Oversold | RSI: 22.6 | Change: -1.21%
+💰 SELL at 263.00 | Net P&L: $18752.53 (0.96%) | PROFIT
+📈 BUY at 261.53 | Oversold | RSI: 31.9 | Change: -0.89%
+💰 SELL at 257.60 | Net P&L: $-30492.69 (-1.50%) | STOP LOSS
+📈 SHORT at 263.40 | Overbought | RSI: 94.6 | Change: 0.73%
+💰 COVER at 263.20 | Net P&L: $1078.60 (0.08%) | TIME LIMIT
+📈 BUY at 265.43 | Momentum Up | RSI: 64.7 | Change: 1.43%
+💰 SELL at 270.67 | Net P&L: $39038.22 (1.97%) | PROFIT
+📈 BUY at 243.47 | Oversold | RSI: 27.9 | Change: -10.05%
+💰 SELL at 240.00 | Net P&L: $-28942.55 (-1.43%) | STOP LOSS
+📈 BUY at 238.37 | Oversold | RSI: 22.1 | Change: -0.68%
+💰 SELL at 241.07 | Net P&L: $22213.02 (1.13%) | PROFIT
+📈 BUY at 239.30 | Oversold | RSI: 25.7 | Change: -0.73%
+💰 SELL at 235.13 | Net P&L: $-35288.65 (-1.74%) | STOP LOSS
+📈 BUY at 233.17 | Oversold | RSI: 24.0 | Change: -0.64%
+💰 SELL at 231.47 | Net P&L: $-15020.88 (-0.73%) | TIME LIMIT
+📈 SHORT at 229.00 | Overbought | RSI: 78.7 | Change: 0.67%
+💰 COVER at 232.43 | Net P&L: $-30394.16 (-1.50%) | STOP LOSS
+📈 SHORT at 232.47 | Overbought | RSI: 70.0 | Change: 0.87%
+💰 COVER at 229.20 | Net P&L: $27691.82 (1.41%) | PROFIT
+📈 SHORT at 228.70 | Momentum Down | RSI: 39.3 | Change: -1.12%
+💰 COVER at 227.90 | Net P&L: $6556.00 (0.35%) | TIME LIMIT
+📈 BUY at 224.43 | Oversold | RSI: 30.8 | Change: -0.88%
+💰 SELL at 226.67 | Net P&L: $19520.66 (1.00%) | PROFIT
+📈 SHORT at 230.40 | Overbought | RSI: 82.4 | Change: 1.11%
+💰 COVER at 230.73 | Net P&L: $-3304.37 (-0.14%) | TIME LIMIT
+📈 SHORT at 216.80 | Momentum Down | RSI: 36.4 | Change: -0.61%
+💰 COVER at 218.03 | Net P&L: $-11786.75 (-0.57%) | TIME LIMIT
+📈 BUY at 214.33 | Oversold | RSI: 14.8 | Change: -1.38%
+💰 SELL at 212.03 | Net P&L: $-21901.28 (-1.07%) | TIME LIMIT
+📈 SHORT at 210.67 | Momentum Down | RSI: 36.2 | Change: -0.61%
+💰 COVER at 213.93 | Net P&L: $-31387.16 (-1.55%) | STOP LOSS
+📊 ITC (all_signals, 15minute): Net P&L $-132930.48, Win Rate 43.5%, Trades 23
+   💸 Gross P&L: $-122811.08 | Costs: $10119.40
+   🛡️ Stop Loss: 6, Profit: 6, Time: 11
+
+🔄 Testing INFY with only_oversold rule on 15minute
+💰 Allocated Capital for INFY: $2,000,000.00
+📊 Data Points: 43576 bars
+📊 SIGNAL RULE: only_oversold
+📊 PARAMETERS: Entry 0.6% | Target 0.8% | Stop 1.2% | Hold 8 bars
+📈 BUY at 526.17 | Oversold Only | RSI: 28.5 | Change: -0.61%
+💰 SELL at 531.57 | Net P&L: $20085.41 (1.03%) | PROFIT
+📈 BUY at 570.32 | Oversold Only | RSI: 23.7 | Change: -0.63%
+💰 SELL at 571.33 | Net P&L: $3101.16 (0.18%) | TIME LIMIT
+📈 BUY at 573.40 | Oversold Only | RSI: 26.2 | Change: -0.92%
+💰 SELL at 573.50 | Net P&L: $-91.18 (0.02%) | TIME LIMIT
+📈 BUY at 570.34 | Oversold Only | RSI: 28.1 | Change: -0.67%
+💰 SELL at 568.75 | Net P&L: $-6014.45 (-0.28%) | TIME LIMIT
+📈 BUY at 554.98 | Oversold Only | RSI: 25.9 | Change: -1.29%
+💰 SELL at 550.60 | Net P&L: $-16221.05 (-0.79%) | TIME LIMIT
+📈 BUY at 543.68 | Oversold Only | RSI: 14.5 | Change: -0.83%
+💰 SELL at 549.02 | Net P&L: $19200.60 (0.98%) | PROFIT
+📈 BUY at 552.03 | Oversold Only | RSI: 31.2 | Change: -0.77%
+💰 SELL at 553.72 | Net P&L: $5681.30 (0.31%) | TIME LIMIT
+📈 BUY at 537.29 | Oversold Only | RSI: 11.1 | Change: -0.87%
+💰 SELL at 537.64 | Net P&L: $862.75 (0.07%) | TIME LIMIT
+📈 BUY at 534.90 | Oversold Only | RSI: 34.6 | Change: -0.63%
+💰 SELL at 540.75 | Net P&L: $21433.15 (1.09%) | PROFIT
+📊 INFY (only_oversold, 15minute): Net P&L $48037.68, Win Rate 66.7%, Trades 9
+   💸 Gross P&L: $51997.03 | Costs: $3959.35
+   🛡️ Stop Loss: 0, Profit: 3, Time: 6
+
+🔄 Testing HDFC with only_deep_oversold rule on 15minute
+💰 Allocated Capital for HDFC: $2,000,000.00
+📊 Data Points: 43575 bars
+📊 SIGNAL RULE: only_deep_oversold
+📊 PARAMETERS: Entry 0.6% | Target 0.8% | Stop 1.2% | Hold 8 bars
+📈 BUY at 1238.50 | Deep Oversold | RSI: 21.5 | Change: -0.85%
+💰 SELL at 1238.60 | Net P&L: $-278.37 (0.01%) | TIME LIMIT
+📈 BUY at 1237.05 | Deep Oversold | RSI: 13.2 | Change: -0.83%
+💰 SELL at 1252.40 | Net P&L: $24365.80 (1.24%) | PROFIT
+📈 BUY at 1319.85 | Deep Oversold | RSI: 19.4 | Change: -0.76%
+💰 SELL at 1326.00 | Net P&L: $8877.34 (0.47%) | TIME LIMIT
+📈 BUY at 1311.85 | Deep Oversold | RSI: 11.2 | Change: -0.74%
+💰 SELL at 1310.25 | Net P&L: $-2878.24 (-0.12%) | TIME LIMIT
+📈 BUY at 1366.00 | Deep Oversold | RSI: 18.8 | Change: -0.95%
+💰 SELL at 1379.40 | Net P&L: $19177.64 (0.98%) | PROFIT
+📈 BUY at 1342.90 | Deep Oversold | RSI: 6.6 | Change: -0.83%
+💰 SELL at 1324.00 | Net P&L: $-28582.01 (-1.41%) | STOP LOSS
+📈 BUY at 1312.95 | Deep Oversold | RSI: 3.6 | Change: -0.83%
+💰 SELL at 1285.55 | Net P&L: $-42170.12 (-2.09%) | STOP LOSS
+📊 HDFC (only_deep_oversold, 15minute): Net P&L $-21487.94, Win Rate 42.9%, Trades 7
+   💸 Gross P&L: $-18408.85 | Costs: $3079.09
+   🛡️ Stop Loss: 2, Profit: 2, Time: 3
+
+📊 15MINUTE RESULTS:
+--------------------------------------------------
+💰 Total Portfolio Net P&L: $-106380.75
+💸 Total Portfolio Gross P&L: $-89222.90
+💸 Total Portfolio Costs: $17157.85
+💼 Total Allocated Capital: $6,000,000.00
+🎯 Average Win Rate: 51.0%
+🔄 Total Trades: 39
+💰 Avg Profit per Trade: $-2727.71
+📈 Portfolio Return: -1.77%
+💸 Cost Impact: 19.23% of gross P&L
+
+🛡️ EXIT ANALYSIS:
+   Total Stop Loss Exits: 8
+   Total Profit Exits: 11
+   Total Time Limit Exits: 20
+   Stop Loss Rate: 20.5%
+   Profit Exit Rate: 28.2%
+   Time Exit Rate: 51.3%
+
+⚠️  Timeframe needs adjustment
+📈 Net Return: -1.77%
+
+================================================================================
+📊 TIMEFRAME COMPARISON SUMMARY
+================================================================================
+
+🕒 3MINUTE:
+   Return: 1.00%
+   P&L: $60080.80
+   Trades: 6
+   Win Rate: 88.9%
+
+🕒 5MINUTE:
+   Return: 0.17%
+   P&L: $9952.75
+   Trades: 7
+   Win Rate: 60.0%
+
+🕒 15MINUTE:
+   Return: -1.77%
+   P&L: $-106380.75
+   Trades: 39
+   Win Rate: 51.0%
